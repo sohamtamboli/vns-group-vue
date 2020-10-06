@@ -10,32 +10,46 @@
 						class="card"
 						style="background-image:url('https://source.unsplash.com/random');background-size: cover;"
 					>
-						1
+						<div class="overlay">
+							<b-button v-b-modal="'modal1'">See Project 1</b-button>
+
+							<b-modal id="modal1" scrollable title="Scrollable Content">
+								<p class="my-4" v-for="i in 20" :key="i">
+									Cras mattis consectetur purus sit amet fermentum. Cras justo
+									odio, dapibus ac facilisis in, egestas eget quam. Morbi leo
+									risus, porta ac consectetur ac, vestibulum at eros.
+								</p>
+							</b-modal>
+						</div>
 					</div>
 					<div
 						class="card"
 						style="background-image:url('https://source.unsplash.com/random');background-size: cover;"
 					>
-						2
+						<div class="overlay">
+							<b-button v-b-modal="'modal2'">See Project 2</b-button>
+
+							<b-modal id="modal2" scrollable title="Scrollable Content">
+								<p class="my-4" v-for="i in 20" :key="i">
+									Cras mattis consectetur purus sit amet fermentum. Cras justo
+									odio, dapibus ac facilisis in, egestas eget quam. Morbi leo
+									risus, porta ac consectetur ac, vestibulum at eros.
+								</p>
+							</b-modal>
+						</div>
 					</div>
 					<div
 						class="card"
 						style="background-image:url('https://source.unsplash.com/random');background-size: cover;"
-					>
-						3
-					</div>
+					></div>
 					<div
 						class="card"
 						style="background-image:url('https://source.unsplash.com/random');background-size: cover;"
-					>
-						4
-					</div>
+					></div>
 					<div
 						class="card"
 						style="background-image:url('https://source.unsplash.com/random');background-size: cover;"
-					>
-						5
-					</div>
+					></div>
 				</div>
 			</div>
 		</div>
@@ -70,14 +84,26 @@
 		grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
 		grid-auto-rows: 240px;
 	}
+	.overlay {
+		opacity: 0;
+
+		transition: 0.5s;
+	}
 	.card {
 		color: #fff;
 		display: flex;
 		justify-content: center;
 		align-content: center;
 		font-size: 2rem;
+		transition: 0.5s;
 	}
 	.card:hover {
-		background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+		/* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)); */
+
+		cursor: pointer;
+	}
+
+	.card:hover .overlay {
+		opacity: 1;
 	}
 </style>
