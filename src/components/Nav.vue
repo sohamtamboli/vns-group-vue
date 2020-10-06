@@ -16,7 +16,7 @@
 						<b-nav-item to="">Home</b-nav-item>
 						<b-nav-item to="">Services</b-nav-item>
 						<b-nav-item to="">Company</b-nav-item>
-						<b-nav-item to="">Contact Us</b-nav-item>
+						<b-nav-item to="/contact">Contact Us</b-nav-item>
 						<b-nav-item to="">About</b-nav-item>
 					</b-navbar-nav>
 				</b-collapse>
