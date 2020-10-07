@@ -1,7 +1,7 @@
 <template>
     <div class="container mt-2">
         <h1>ContactUs</h1>
-            <b-form @submit="onSubmit">
+            <b-form @submit="onSubmit" @reset="onReset">
                 <b-form-group id="input-group-1" label="Your Name:" label-for="input-1">
                     <b-form-input
                     id="input-1"
@@ -52,7 +52,7 @@
 </template>
 
 <script>
-import { apiService } from '../common/api.service';
+import { apiService } from '../common/api.service.js';
 
 export default {
     
@@ -62,8 +62,8 @@ export default {
     data() {
         return {
             form: {
-                name: '',
-                email: '',
+                name: null,
+                email: null,
                 subject: null,
                 message: null
             }
@@ -72,16 +72,23 @@ export default {
     methods:{
         onSubmit(evt) {
             evt.preventDefault()
-                console.log("JSON.stringify(this.form)",(this.form))
+                console.log("this.form",this.form)
+                console.log("JSON.stringify(this.form)",JSON.stringify(this.form))
                 let endpoint = "/api/contact/";
                 let method = "POST";
-                apiService(endpoint,method,{content:this.form })
-            
+                apiService(endpoint,method,this.form).then(
+                    this.form.name = '',
+                    this.form.email = '',
+                    this.form.subject = '',
+                    this.form.message = ''
+                )
+                alert("you have succesfully submited form")
+                
       },
       onReset(evt) {
         evt.preventDefault()
-        this.form.email = ''
         this.form.name = ''
+        this.form.email = ''
         this.form.subject = ''
         this.form.message = ''
         this.show = false

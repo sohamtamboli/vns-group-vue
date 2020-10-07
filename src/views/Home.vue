@@ -13,4 +13,4 @@
 			Carousel,
 		},
 	};
-</script>
+</script> 
