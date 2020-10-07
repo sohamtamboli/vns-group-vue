@@ -11,13 +11,8 @@ from rest_framework import viewsets,generics,status
 class Constac_us_ApiView(viewsets.ModelViewSet):
     queryset=Contact_Us.objects.all()
     serializer_class=Contact_UsSerializer
-    x=queryset
-    def get(self,request):
-        if self.queryset:
-            return self.queryset
-        else:
-            return Response("not contact")
 
     def perform_create(self,serializer):
+        print("self.request.data",self.request.data)
         serializer.save()
      
