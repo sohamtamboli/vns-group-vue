@@ -18,19 +18,21 @@
 	};
 </script>
 <style lang="css" scoped>
-	.contain {
-		display: grid;
-		grid-template-rows: 1fr 1fr;
-		grid-template-areas:
-			"section1"
-			"section2";
-	}
-	.sec1 {
-		grid-area: section1;
-	}
-	.sec2 {
-		grid-area: section2;
-		justify-self: center;
-		gap: 2;
+	@media only screen and (min-width: 768px) {
+		.contain {
+			display: grid;
+			grid-template-rows: 1fr 1fr;
+			grid-template-areas:
+				"section1"
+				"section2";
+		}
+		.sec1 {
+			grid-area: section1;
+		}
+		.sec2 {
+			grid-area: section2;
+			justify-self: center;
+			gap: 2;
+		}
 	}
 </style>

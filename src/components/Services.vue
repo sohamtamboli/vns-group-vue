@@ -30,6 +30,7 @@
 		max-height: 120px;
 		display: flex;
 		overflow-x: auto;
+		/* pointer-events: none; */
 	}
 	.wrapper::-webkit-scrollbar {
 		width: 0;
