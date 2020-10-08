@@ -60,47 +60,6 @@
 						src="https://source.unsplash.com/800x600/?dark,moody"
 						alt="image slot"/></template
 			></b-carousel-slide>
-
-			<!-- Slides with img slot -->
-			<!-- Note the classes .d-block and .img-fluid to prevent browser default image alignment -->
-			<!-- <b-carousel-slide>
-				<template v-slot:img>
-					<img
-						class="d-block img-fluid w-100"
-						src="https://picsum.photos/1024/480/?image=55"
-						alt="image slot"
-					/>
-				</template>
-				<h1>Hello!</h1>
-			</b-carousel-slide>
-			<b-carousel-slide>
-				<template v-slot:img>
-					<img
-						class="d-block img-fluid w-100"
-						src="https://picsum.photos/1024/480/?image=58"
-						alt="image slot"
-					/>
-				</template>
-				<h1>Hello world!</h1>
-			</b-carousel-slide>
-			<b-carousel-slide>
-				<template v-slot:img>
-					<img
-						class="d-block img-fluid w-100"
-						src="https://picsum.photos/1024/480/?image=54"
-						alt="image slot"
-					/>
-				</template>
-			</b-carousel-slide>
-			<b-carousel-slide>
-				<template v-slot:img>
-					<img
-						class="d-block img-fluid w-100"
-						src="https://picsum.photos/1024/480/?image=52"
-						alt="image slot"
-					/>
-				</template>
-			</b-carousel-slide> -->
 		</b-carousel>
 	</div>
 </template>
