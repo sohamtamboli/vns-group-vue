@@ -3,10 +3,10 @@
    
     <div class="how-section1">
                         <div class="row" style="background-color:black">
-                            <div class="col-md-6 how-img my-auto">
+                            <div class="col-md-6 how-img my-auto p-2">
                                 <img src="https://ultraworld-ecommerce.s3.amazonaws.com/media/product/outer_back-0158_800x.jpg" class="rounded-circle img-fluid" alt=""/>
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-md-6 p-5">
                                 <h4>About Us</h4>
                                             <h4 class="subheading">GetLance is a great place to find more clients, and to run and grow your own freelance business.</h4>
                                 <p class="text-muted">Freedom to work on ideal projects. On GetLance, you run your own business and choose your own clients and projects. Just complete your profile and we’ll highlight ideal jobs. Also search projects, and respond to client invitations.
