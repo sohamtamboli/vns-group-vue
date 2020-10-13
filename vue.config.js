@@ -4,6 +4,12 @@ module.exports = {
     // on Windows you might want to set publicPath: "http://127.0.0.1:8080/" 
     publicPath: "http://127.0.0.1:8080/", 
     outputDir: './dist/',
+    
+    configureWebpack: {
+        devServer: {
+          historyApiFallback: true
+        }
+      },
 
     chainWebpack: config => {
 
