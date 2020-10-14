@@ -2,7 +2,6 @@ import Vue from "vue";
 import VueRouter from "vue-router";
 import Home from "../views/Home.vue";
 import About from "../components/AboutUs.vue";
-import Notfound from "../views/Notfound.vue";
 
 Vue.use(VueRouter);
 
@@ -15,7 +14,8 @@ const routes = [
 	{
 		path: "*",
 		name: "notD",
-		component: Notfound,
+		component: () =>
+			import(/* webpackChunkName: "Error" */ "../views/Notfound.vue"),
 	},
 	{
 		path: "/contact",
