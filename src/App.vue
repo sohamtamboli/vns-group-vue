@@ -2,13 +2,19 @@
 	<div id="app">
 		<Nav />
 		<router-view />
+		<footer_ />
+
 	</div>
 </template>
 <script>
+
 	import Nav from "@/components/Nav";
+	import footer_ from "@/components/footer";
+
 	export default {
 		components: {
 			Nav,
+			footer_
 		},
 	};
 </script>
