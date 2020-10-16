@@ -1,6 +1,13 @@
 <template>
 	<div>
-		<carousel :autoplay="true" :nav="false" :dots="false" loop>
+		<carousel
+			:autoplay="true"
+			:nav="false"
+			:dots="false"
+			:responsive="{ 0: { items: 1 }, 600: { items: 2 } }"
+			stagePadding="100"
+			loop
+		>
 			<div class="image-container">
 				<img class="item" src="https://placeimg.com/200/200/any?1" />
 			</div>
@@ -10,7 +17,7 @@
 		</carousel>
 		<div class="m-3" id="grid-contain">
 			<b-card
-				title="Card Title"
+				title="VNS ENTERPRISES"
 				img-src="https://picsum.photos/600/300/?image=25"
 				img-alt="Image"
 				img-top
@@ -23,10 +30,10 @@
 					bulk of the card's content.
 				</b-card-text>
 
-				<b-button href="#" variant="primary">Go somewhere</b-button>
+				<b-button to="#" variant="primary">Go at VNS ENTERPRISES</b-button>
 			</b-card>
 			<b-card
-				title="Card Title"
+				title="VNS FIRE SOLUTION PVT LTD"
 				img-src="https://picsum.photos/600/300/?image=25"
 				img-alt="Image"
 				img-top
@@ -39,7 +46,7 @@
 					bulk of the card's content.
 				</b-card-text>
 
-				<b-button href="#" variant="primary">Go somewhere</b-button>
+				<b-button to="#" variant="primary">Go at VNS FIRE SOLUTION</b-button>
 			</b-card>
 		</div>
 	</div>
@@ -55,10 +62,10 @@
 
 <style lang="css" scoped>
 	.image-container .item {
-		padding: 16px 6px;
+		padding: 8px 6px;
 	}
 	.item {
-		max-height: 300px;
+		max-height: 400px;
 	}
 	#grid-contain {
 		display: grid;
