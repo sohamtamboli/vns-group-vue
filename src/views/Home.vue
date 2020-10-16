@@ -1,8 +1,9 @@
 <template>
 	<div>
 		<Carousel />
-		<Services class="custom" />
 		<About />
+		<Services id="services" />
+		<ContactUs />
 	</div>
 </template>
 
@@ -11,6 +12,7 @@
 	import Carousel from "@/components/Carousel";
 	import Services from "@/components/Services";
 	import About from "@/components/AboutUs";
+	import ContactUs from "@/components/Contactus";
 
 	export default {
 		name: "Home",
@@ -18,11 +20,8 @@
 			Carousel,
 			Services,
 			About,
+			ContactUs,
 		},
 	};
 </script>
-<style lang="css" scoped>
-	.custom {
-		max-height: 120px;
-	}
-</style>
+<style lang="css" scoped></style>

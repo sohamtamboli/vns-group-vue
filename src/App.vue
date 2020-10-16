@@ -1,20 +1,19 @@
 <template>
 	<div id="app">
 		<Nav />
+		<div class="blank"></div>
 		<router-view />
 		<footer_ />
-
 	</div>
 </template>
 <script>
-
 	import Nav from "@/components/Nav";
 	import footer_ from "@/components/footer";
 
 	export default {
 		components: {
 			Nav,
-			footer_
+			footer_,
 		},
 	};
 </script>
@@ -25,5 +24,8 @@
 		-moz-osx-font-smoothing: grayscale;
 		text-align: center;
 		color: #2c3e50;
+	}
+	.blank {
+		height: 56px;
 	}
 </style>

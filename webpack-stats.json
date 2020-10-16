@@ -1,1 +1,27 @@
-{"status":"done","publicPath":"http://127.0.0.1:8080/","chunks":{"about":[{"name":"js/about.js","publicPath":"http://127.0.0.1:8080/js/about.js","path":"C:\\Users\\athar\\Documents\\GitHub\\vns-group-vue\\dist\\js\\about.js"}],"app":[{"name":"bundle.js","publicPath":"http://127.0.0.1:8080/bundle.js","path":"C:\\Users\\athar\\Documents\\GitHub\\vns-group-vue\\dist\\bundle.js"}],"contact":[{"name":"js/contact.js","publicPath":"http://127.0.0.1:8080/js/contact.js","path":"C:\\Users\\athar\\Documents\\GitHub\\vns-group-vue\\dist\\js\\contact.js"}]}}
+{
+	"status": "done",
+	"publicPath": "http://127.0.0.1:8080/",
+	"chunks": {
+		"about": [
+			{
+				"name": "js/about.js",
+				"publicPath": "http://127.0.0.1:8080/js/about.js",
+				"path": "C:\\Users\\athar\\Documents\\GitHub\\vns-group-vue\\dist\\js\\about.js"
+			}
+		],
+		"app": [
+			{
+				"name": "bundle.js",
+				"publicPath": "http://127.0.0.1:8080/bundle.js",
+				"path": "C:\\Users\\athar\\Documents\\GitHub\\vns-group-vue\\dist\\bundle.js"
+			}
+		],
+		"contact": [
+			{
+				"name": "js/contact.js",
+				"publicPath": "http://127.0.0.1:8080/js/contact.js",
+				"path": "C:\\Users\\athar\\Documents\\GitHub\\vns-group-vue\\dist\\js\\contact.js"
+			}
+		]
+	}
+}
