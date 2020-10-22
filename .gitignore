@@ -8,6 +8,7 @@ node_modules
 .env.*.local
 .history
 /venv
+venv
 
 # Log files
 npm-debug.log*
