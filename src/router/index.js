@@ -1,8 +1,7 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
 import Home from "../views/Home.vue";
-import Notfound from "../views/Notfound.vue";
-
+import About from "../components/AboutUs.vue";
 
 Vue.use(VueRouter);
 
@@ -13,9 +12,10 @@ const routes = [
 		component: Home,
 	},
 	{
-		path:"*",
-		name:"notD",
-		component:Notfound
+		path: "*",
+		name: "notD",
+		component: () =>
+			import(/* webpackChunkName: "Error" */ "../views/Notfound.vue"),
 	},
 	{
 		path: "/contact",
@@ -29,11 +29,25 @@ const routes = [
 	{
 		path: "/about",
 		name: "About",
+		component: About,
+	},
+	{
+		path: "/projects",
+		name: "Projects",
 		// route level code-splitting
-		// this generates a separate chunk (about.[hash].js) for this route
+		// this generates a separate chunk (projects.[hash].js) for this route
 		// which is lazy-loaded when the route is visited.
 		component: () =>
-			import(/* webpackChunkName: "about" */ "../views/About.vue"),
+			import(/* webpackChunkName: "projects" */ "../views/projects.vue"),
+	},
+	{
+		path: "/company",
+		name: "Company",
+		// route level code-splitting
+		// this generates a separate chunk (company.[hash].js) for this route
+		// which is lazy-loaded when the route is visited.
+		component: () =>
+			import(/* webpackChunkName: "company" */ "../views/company.vue"),
 	},
 ];
 
