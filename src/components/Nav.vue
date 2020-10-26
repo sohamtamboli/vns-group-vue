@@ -1,6 +1,16 @@
 <template>
 	<div>
-		<b-navbar toggleable="lg" type="dark" variant="dark" fixed="top">
+		<b-navbar
+			toggleable="lg"
+			type="dark"
+			variant="dark"
+			fixed="top"
+			class="elemental"
+		>
+			<div class="contact">
+				<b-nav-text class="mx-2">contact number</b-nav-text>
+				<b-nav-text class="mx-2">email@mail.com</b-nav-text>
+			</div>
 			<div class="container">
 				<b-navbar-brand to="/">VNS Group</b-navbar-brand>
 
@@ -18,7 +28,7 @@
 						<b-nav-item to="/projects">Projects</b-nav-item>
 
 						<b-nav-item-dropdown text="Company">
-							<b-dropdown-item to="#" class="text-center"
+							<b-dropdown-item to="/vnsenterprises" class="text-center"
 								>VNS Enterprises</b-dropdown-item
 							>
 							<b-dropdown-item to="#" class="text-center"
@@ -45,5 +55,11 @@
 <style scoped>
 	.ham-menu {
 		border: none;
+	}
+	.elemental {
+		flex-direction: column;
+	}
+	.contact {
+		margin: 0 0 0 auto;
 	}
 </style>
