@@ -5,7 +5,7 @@
 </template>
 
 <script>
-	import VnsEnterprises from "@/components/VueEnterprises";
+	import VnsEnterprises from "@/components/Enterprises/VnsEnterprises";
 	export default {
 		components: {
 			VnsEnterprises,
