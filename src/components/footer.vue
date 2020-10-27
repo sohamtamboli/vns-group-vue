@@ -11,12 +11,7 @@
                             <div class="col-xs-12 col-sm-4 col-md-4">
                                 <h5>Menu</h5>
                                 <ul class="list-unstyled quick-links">
-                                    <!-- <li><a to="/">Home</a></li>
-                                    <li><a to="/#services">Services</a></li>
-                                    <li><a to="/projects">Projects</a></li>
-                                    <li><a to="/company">Company</a></li>
-                                    <li><a to="/contact">Contact Us</a></li>
-                                    <li><a to="/about">About</a></li>    -->
+                                  
                                     <b-nav-item to="/">Home</b-nav-item>
                                     <b-nav-item href="/#services">Services</b-nav-item>
                                     <b-nav-item to="/projects">Projects</b-nav-item>
