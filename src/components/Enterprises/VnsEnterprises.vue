@@ -5,7 +5,7 @@
 			:nav="false"
 			:dots="false"
 			:responsive="{ 0: { items: 1 }, 600: { items: 2 } }"
-			stagePadding="100"
+			:stagePadding="100"
 			loop
 		>
 			<div class="image-container">
