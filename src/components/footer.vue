@@ -72,7 +72,7 @@ section .section-title {
     text-transform: uppercase;
 } */
 #footer {
-    background: #007b5e ;
+    background: #2c3e50 ;
 }
 #footer h5{
 	padding-left: 10px;
