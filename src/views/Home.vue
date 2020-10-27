@@ -15,6 +15,7 @@
 	import ContactUs from "@/components/Contactus";
 
 	export default {
+		title: "Home",
 		name: "Home",
 		components: {
 			Carousel,
