@@ -18,16 +18,22 @@
 				<img class="item" src="https://placeimg.com/200/200/any?3" />
 			</div>
 		</carousel>
-		<Products />
+		<Products :divs="productData" />
 	</div>
 </template>
 
 <script>
 	import carousel from "vue-owl-carousel";
 	import Products from "@/components/Enterprises/Products";
+	import { data } from "@/assets/ProductsData/products";
 	export default {
 		name: "VnsEnterprises",
 		components: { carousel, Products },
+		data() {
+			return {
+				productData: data.products,
+			};
+		},
 	};
 </script>
 

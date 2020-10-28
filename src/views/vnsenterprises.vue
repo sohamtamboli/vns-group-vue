@@ -7,6 +7,7 @@
 <script>
 	import VnsEnterprises from "@/components/Enterprises/VnsEnterprises";
 	export default {
+		title: "VNS Enterprises",
 		components: {
 			VnsEnterprises,
 		},
