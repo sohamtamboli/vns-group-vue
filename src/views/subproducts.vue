@@ -35,7 +35,7 @@
 
 <style lang="css" scoped>
 	.intro-div {
-		background-color: black;
+		background-color: #1a1a1a;
 		height: 300px;
 		display: flex;
 		justify-content: center;
