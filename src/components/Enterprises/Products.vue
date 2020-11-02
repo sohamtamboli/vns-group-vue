@@ -15,6 +15,9 @@
 					style="max-width: 15rem;"
 					class="m-2"
 				>
+					<b-card-text>
+						{{ div.text }}
+					</b-card-text>
 				</b-card>
 			</div>
 		</div>
@@ -68,10 +71,18 @@
 	}
 	.card {
 		border: none;
-	}
-	a {
 		cursor: pointer;
-		text-decoration: none;
-		color: #000;
+	}
+
+	@media only screen and (max-width: 600px) {
+		.grid-holder {
+			display: grid;
+			grid-template-columns: auto;
+			grid-template-rows: repeat(2, 1fr);
+		}
+		.single-cell {
+			justify-self: center;
+			align-self: center;
+		}
 	}
 </style>

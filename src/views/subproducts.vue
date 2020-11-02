@@ -1,7 +1,7 @@
 <template>
 	<div>
 		<div class="intro-div">
-			<h1>{{ productLabels[selectedData] }}</h1>
+			<h1 class="title-text">{{ productLabels[selectedData] }}</h1>
 		</div>
 		<Products :divs="productData" />
 	</div>
@@ -41,5 +41,10 @@
 		justify-content: center;
 		align-items: center;
 		color: #fff;
+	}
+	@media only screen and (max-width: 600px) {
+		.title-text {
+			font-size: 34px;
+		}
 	}
 </style>
