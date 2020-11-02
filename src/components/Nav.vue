@@ -2,8 +2,8 @@
 	<div>
 		<b-navbar
 			toggleable="lg"
-			type="dark"
-			variant="dark"
+			type="light"
+			variant="light"
 			fixed="top"
 			class="elemental"
 		>
@@ -58,6 +58,7 @@
 	}
 	.elemental {
 		flex-direction: column;
+		box-shadow: 0px 5px 18px #888888;
 	}
 	.contact {
 		margin: 0 0 0 auto;
