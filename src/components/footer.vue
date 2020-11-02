@@ -6,16 +6,18 @@
                         <div class="row text-center text-xs-center text-sm-left text-md-left">
                             <div class="col-xs-12 col-sm-4 col-md-4">
                                 <h5>Address</h5>
-                                    <b><p>Address: 798 South Park Avenue, Jaipur,India</p> </b>  
+                                     <p>Address: 798 South Park Avenue, Jaipur,India</p>
                             </div>
                             <div class="col-xs-12 col-sm-4 col-md-4">
                                 <h5>Menu</h5>
                                 <ul class="list-unstyled quick-links">
-                                    <li><a href=""><i class="fa fa-angle-double-right"></i>Home</a></li>
-                                    <li><a href=""><i class="fa fa-angle-double-right"></i>About</a></li>
-                                    <li><a href=""><i class="fa fa-angle-double-right"></i>Company</a></li>
-                                    <li><a href=""><i class="fa fa-angle-double-right"></i>Project</a></li>
-                                    <li><a href=""><i class="fa fa-angle-double-right"></i>Contact Us</a></li>
+                                  
+                                    <b-nav-item to="/">Home</b-nav-item>
+                                    <b-nav-item href="/#services">Services</b-nav-item>
+                                    <b-nav-item to="/projects">Projects</b-nav-item>
+                                    <b-nav-item to="/company">Company</b-nav-item>
+                                    <b-nav-item to="/contact">Contact Us</b-nav-item>
+                                    <b-nav-item to="/about">About</b-nav-item>
                                 </ul>
                             </div>
                             <div class="col-xs-12 col-sm-4 col-md-4">
@@ -27,18 +29,8 @@
                                 
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
-                                <ul class="list-unstyled list-inline social text-center">
-                                    <li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-facebook"></i></a></li>
-                                    <li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-twitter"></i></a></li>
-                                    <li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-instagram"></i></a></li>
-                                    <li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-google-plus"></i></a></li>
-                                    <li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02" target="_blank"><i class="fa fa-envelope"></i></a></li>
-                                </ul>
-                            </div>
-                            <hr>
-                        </div>	
+                        <!-- <div class="row">
+                        </div>	 -->
                         <div class="row">
                             <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
                                 <p class="h6">© All right Fire safety.</p>
@@ -62,17 +54,12 @@ export default {
 /* Footer */
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 section {
-    padding: 60px 0;
+    padding: 10px 0;
 }
-/* 
-section .section-title {
-    text-align: center;
-    color:black;
-    margin-bottom: 50px;
-    text-transform: uppercase;
-} */
+ 
 #footer {
-    background: #007b5e ;
+    background: #2c3e50 ;
+    margin-top: 5px;
 }
 #footer h5{
 	padding-left: 10px;
@@ -133,6 +120,9 @@ section .section-title {
     padding-bottom: 0px;
     margin-bottom: 10px;
 }
+}
+p{
+    color: #ffffff;
 }
 
 </style>
