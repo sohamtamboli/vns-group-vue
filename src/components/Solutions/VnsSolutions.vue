@@ -9,13 +9,13 @@
 			loop
 		>
 			<div class="image-container">
-				<img class="item" src="../../assets/products1.jpg" />
+				<img class="item" src="../../assets/products4.jpg" />
 			</div>
 			<div class="image-container">
-				<img class="item" src="../../assets/products2.jpg" />
+				<img class="item" src="../../assets/products5.jpg" />
 			</div>
 			<div class="image-container">
-				<img class="item" src="../../assets/products3.jpg" />
+				<img class="item" src="../../assets/products6.jpg" />
 			</div>
 		</carousel>
 		<Products :divs="productData" />

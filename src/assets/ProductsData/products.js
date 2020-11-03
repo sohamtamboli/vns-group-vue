@@ -1,44 +1,44 @@
 export const data = {
 	enterprisesProducts: [
 		{
-			img: require("../../assets/enterprisesProducts/1.jpg"),
+			img: require("../../assets/enterprisesProducts/ppe.png"),
 			name: "PPE",
 			url: "ppe",
 		},
 		{
-			img: require("../../assets/enterprisesProducts/2.jpg"),
+			img: require("../../assets/enterprisesProducts/fireext.png"),
 			name: "FIRE EXTINGUISHER",
 			url: "fireext",
 		},
 		{
-			img: require("../../assets/enterprisesProducts/3.jpg"),
+			img: require("../../assets/enterprisesProducts/wheelext.png"),
 			name: "WHEELED FIRE EXTINGUISHER",
 			url: "wfireext",
 		},
 	],
 	solutionProducts: [
 		{
-			img: require("../../assets/enterprisesProducts/1.jpg"),
-			name: "SIGN BOARD",
+			img: require("../../assets/safety signs.png"),
+			name: "SIGN BOARDS",
 			url: "signboard",
 		},
 		{
-			img: require("../../assets/enterprisesProducts/2.jpg"),
+			img: require("../../assets/parking signs.png"),
 			name: "PARKING SAFETY PRODUCTS",
 			url: "parksafe",
 		},
 		{
-			img: require("../../assets/enterprisesProducts/3.jpg"),
+			img: require("../../assets/fire hydrant.png"),
 			name: "FIRE HYDRANT SYSTEM",
 			url: "firehydrant",
 		},
 		{
-			img: require("../../assets/enterprisesProducts/2.jpg"),
+			img: require("../../assets/fire alarms.png"),
 			name: "FIRE ALARM SYSTEM",
 			url: "firealarm",
 		},
 		{
-			img: require("../../assets/enterprisesProducts/1.jpg"),
+			img: require("../../assets/medkits.png"),
 			name: "FIRST AID AND KITS",
 			url: "firstaid",
 		},
@@ -63,42 +63,37 @@ export const data = {
 	],
 	fireext: [
 		{
-			img: require("../../assets/fireext/1.png"),
+			img: require("../../assets/fireext/ABC  CARTRIDGE & STORED PRESSURE.png"),
 			name: "ABC STORED PRESSURE ",
 			text: "1KG, 2KG, 4KG, 6 KG AND 9 KG",
 		},
 		{
-			img: require("../../assets/fireext/2.png"),
+			img: require("../../assets/fireext/ABC STORED PRESSURE – 1KG, 2KG, 4KG, 6 KG AND 9 KG.png"),
 			name: "ABC  CARTRIDGE & STORED PRESSURE ",
 			text: "4KG ,6KG ,9KG",
 		},
 		{
-			img: require("../../assets/fireext/3.png"),
+			img: require("../../assets/fireext/BC STORED PRESSURE AND CARTRIDGE TYPE.png"),
 			name: "BC STORED PRESSURE AND CARTRIDGE TYPE",
 			text: "4KG, 6KG, 9KG",
 		},
 		{
-			img: require("../../assets/fireext/4.png"),
+			img: require("../../assets/fireext/CO2 TYPE FIRE EXTINGUISHER (CARBON DIOXIDE)  -  2KG , 3 KG,4.5 KG.png"),
 			name: "CO2 TYPE FIRE EXTINGUISHER (CARBON DIOXIDE)",
 			text: "2KG, 3KG, 4.5KG",
 		},
 		{
-			img: require("../../assets/fireext/5.png"),
+			img: require("../../assets/fireext/MECHANICAL FOAM TYPE FIRE EXTINGUISHER – 6 LTR , 9 LTR.png"),
 			name: "MECHANICAL FOAM TYPE FIRE EXTINGUISHER  ",
 			text: "6LTR , 9LTR",
 		},
 		{
-			img: require("../../assets/fireext/6.png"),
+			img: require("../../assets/fireext/WATER FOAM TYPE FIRE EXTINGUISHER (WATER )-      6 LTR, 9 LTR.png"),
 			name: "WATER FOAM TYPE FIRE EXTINGUISHER (WATER ) ",
 			text: "6 LTR, 9 LTR",
 		},
 		{
-			img: require("../../assets/fireext/7.png"),
-			name: "CLEAN AGENT FIRE EXTINGUISHER  ",
-			text: "2KG, 4KG, 6KG ",
-		},
-		{
-			img: require("../../assets/fireext/8.png"),
+			img: require("../../assets/fireext/KITCHEN FIRE EXTINGUISHER (WET CHEMICAL )   K CLASS -4 LTR, 6 LTR,9 LTR.png"),
 			name: "KITCHEN FIRE EXTINGUISHER (WET CHEMICAL) K CLASS",
 			text: "4LTR, 6LTR, 9LTR",
 		},
@@ -121,8 +116,38 @@ export const data = {
 			name: "FOAM / WATER BASED TYPE ",
 		},
 	],
-	signboard: [],
-	parksafe: [],
+	signboard: [
+		{
+			img: require("../../assets/signboards/fire-exit-door-signs.jpg"),
+			name: "fire exit doors signs",
+		},
+		{
+			img: require("../../assets/signboards/fire-exit-marking-signage.jpg"),
+			name: "fire exit marking signage",
+		},
+		{
+			img: require("../../assets/signboards/illuminated-fire-exit-signs.jpg"),
+			name: "illuminated fire exit signs",
+		},
+		{
+			img: require("../../assets/signboards/warning-signage-section-image.jpg"),
+			name: "warning signage section image",
+		},
+	],
+	parksafe: [
+		{
+			img: require("../../assets/parking/traffic cones.png"),
+			name: "traffic cones",
+		},
+		{
+			img: require("../../assets/parking/plastic speed breaker.png"),
+			name: "plastic speed breaker",
+		},
+		{
+			img: require("../../assets/parking/road barrier.png"),
+			name: "road barrier",
+		},
+	],
 	firehydrant: [
 		{
 			// img: require("../../assets/"),
@@ -167,27 +192,56 @@ export const data = {
 	],
 	firealarm: [
 		{
-			// img: require("../../assets/"),
+			img: require("../../assets/firealarm/firepanel.png"),
 			name: "Fire Pannel ",
 		},
 		{
-			// img: require("../../assets/"),
-			name: "Detector system ",
+			img: require("../../assets/firealarm/detector.jpg"),
+			name: "Detector System ",
 		},
 		{
-			// img: require("../../assets/"),
-			name: "Manual call Point",
+			img: require("../../assets/firealarm/manual.jpg"),
+			name: "Manual Call Point",
 		},
 		{
-			// img: require("../../assets/"),
+			img: require("../../assets/firealarm/hooter.jpg"),
 			name: "Hooter",
 		},
 		{
-			// img: require("../../assets/"),
-			name: "Fire cylern",
+			img: require("../../assets/firealarm/siren.jpg"),
+			name: "Fire Siren",
 		},
 	],
-	firstaid: [],
+	firstaid: [
+		{
+			img: require("../../assets/medkits/alpha standard burn kit.jpg"),
+			name: "alpha standard burn kit ",
+		},
+		{
+			img: require("../../assets/medkits/burnshield dressing.jpg"),
+			name: "burnshield dressing ",
+		},
+		{
+			img: require("../../assets/medkits/burnshield responder kit.jpg"),
+			name: "burnshield responder kit ",
+		},
+		{
+			img: require("../../assets/medkits/personal issue first aid kit.jpg"),
+			name: "personal issue first aid kit ",
+		},
+		{
+			img: require("../../assets/medkits/signature eye wash kit.jpg"),
+			name: "signature eye wash kit ",
+		},
+		{
+			img: require("../../assets/medkits/soft case home first aid kit.jpg"),
+			name: "soft case home first aid kit ",
+		},
+		{
+			img: require("../../assets/medkits/travel and motoring first aid kit.jpg"),
+			name: "travel and motoring first aid kit ",
+		},
+	],
 };
 
 export const labels = {

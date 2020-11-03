@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<h1>{{ msg }}</h1>
+		<h1 class="msg">{{ msg }}</h1>
 
 		<div class="grid-holder container">
 			<div v-for="div in divs" :key="div.img" class="single-cell">
@@ -73,7 +73,9 @@
 		border: none;
 		cursor: pointer;
 	}
-
+	.msg {
+		padding: 16px 32px;
+	}
 	@media only screen and (max-width: 600px) {
 		.grid-holder {
 			display: grid;
