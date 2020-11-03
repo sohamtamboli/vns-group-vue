@@ -8,7 +8,7 @@
 </template>
 
 <script>
-	import Products from "@/components/Enterprises/Products";
+	import Products from "@/components/Products";
 	import { data, labels } from "@/assets/ProductsData/products";
 
 	export default {
@@ -23,6 +23,8 @@
 		watch: {
 			$route() {
 				console.log("routeChanged");
+				this.selectedData = this.$route.query.productType;
+				this.productData = data[this.selectedData];
 			},
 		},
 		mounted() {

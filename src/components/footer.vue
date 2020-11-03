@@ -16,7 +16,7 @@
 								<b-nav-item to="/">Home</b-nav-item>
 								<b-nav-item href="/#services">Services</b-nav-item>
 								<b-nav-item to="/projects">Projects</b-nav-item>
-								<b-nav-item to="/company">Company</b-nav-item>
+
 								<b-nav-item to="/contact">Contact Us</b-nav-item>
 								<b-nav-item to="/about">About</b-nav-item>
 							</ul>

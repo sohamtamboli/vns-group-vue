@@ -31,7 +31,7 @@
 							<b-dropdown-item to="/vnsenterprises" class="text-center"
 								>VNS Enterprises</b-dropdown-item
 							>
-							<b-dropdown-item to="#" class="text-center"
+							<b-dropdown-item to="/vnssolutions" class="text-center"
 								>VNS Solutions</b-dropdown-item
 							>
 						</b-nav-item-dropdown>

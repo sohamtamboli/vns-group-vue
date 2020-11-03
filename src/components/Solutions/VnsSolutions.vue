@@ -27,11 +27,11 @@
 	import Products from "@/components/Products";
 	import { data } from "@/assets/ProductsData/products";
 	export default {
-		name: "VnsEnterprises",
+		name: "VnsSolutions",
 		components: { carousel, Products },
 		data() {
 			return {
-				productData: data.enterprisesProducts,
+				productData: data.solutionProducts,
 			};
 		},
 	};

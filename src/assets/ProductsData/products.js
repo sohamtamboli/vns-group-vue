@@ -1,5 +1,5 @@
 export const data = {
-	products: [
+	enterprisesProducts: [
 		{
 			img: require("../../assets/enterprisesProducts/1.jpg"),
 			name: "PPE",
@@ -14,6 +14,33 @@ export const data = {
 			img: require("../../assets/enterprisesProducts/3.jpg"),
 			name: "WHEELED FIRE EXTINGUISHER",
 			url: "wfireext",
+		},
+	],
+	solutionProducts: [
+		{
+			img: require("../../assets/enterprisesProducts/1.jpg"),
+			name: "SIGN BOARD",
+			url: "signboard",
+		},
+		{
+			img: require("../../assets/enterprisesProducts/2.jpg"),
+			name: "PARKING SAFETY PRODUCTS",
+			url: "parksafe",
+		},
+		{
+			img: require("../../assets/enterprisesProducts/3.jpg"),
+			name: "FIRE HYDRANT SYSTEM",
+			url: "firehydrant",
+		},
+		{
+			img: require("../../assets/enterprisesProducts/2.jpg"),
+			name: "FIRE ALARM SYSTEM",
+			url: "firealarm",
+		},
+		{
+			img: require("../../assets/enterprisesProducts/1.jpg"),
+			name: "FIRST AID AND KITS",
+			url: "firstaid",
 		},
 	],
 	ppe: [
@@ -94,10 +121,82 @@ export const data = {
 			name: "FOAM / WATER BASED TYPE ",
 		},
 	],
+	signboard: [],
+	parksafe: [],
+	firehydrant: [
+		{
+			// img: require("../../assets/"),
+			name: "SINGLE  HYDRANT VALVE  ",
+		},
+		{
+			// img: require("../../assets/"),
+			name: "DOUBLE HYDRANT WALVE   ",
+		},
+		{
+			// img: require("../../assets/"),
+			name: "BRANCH PIPES",
+		},
+		{
+			// img: require("../../assets/"),
+			name: "HOSE PIPE ",
+		},
+		{
+			// img: require("../../assets/"),
+			name: "HOSE BOX",
+		},
+		{
+			// img: require("../../assets/"),
+			name: "HOSE REEL ",
+		},
+		{
+			// img: require("../../assets/"),
+			name: "Fire Pump Hose",
+		},
+		{
+			// img: require("../../assets/"),
+			name: "Fire Brigade Inlet ",
+		},
+		{
+			// img: require("../../assets/"),
+			name: "Monitor  ",
+		},
+		{
+			// img: require("../../assets/"),
+			name: "Sprinkler  ",
+		},
+	],
+	firealarm: [
+		{
+			// img: require("../../assets/"),
+			name: "Fire Pannel ",
+		},
+		{
+			// img: require("../../assets/"),
+			name: "Detector system ",
+		},
+		{
+			// img: require("../../assets/"),
+			name: "Manual call Point",
+		},
+		{
+			// img: require("../../assets/"),
+			name: "Hooter",
+		},
+		{
+			// img: require("../../assets/"),
+			name: "Fire cylern",
+		},
+	],
+	firstaid: [],
 };
 
 export const labels = {
 	ppe: "PPE",
 	fireext: "FIRE EXTINGUISHER",
 	wfireext: "WHEELED FIRE EXTINGUISHER",
+	signboard: "SIGN BOARD",
+	parksafe: "PARKING SAFETY PRODUCTS",
+	firehydrant: "FIRE HYDRANT SYSTEM",
+	firealarm: "FIRE ALARM SYSTEM",
+	firstaid: "FIRST AID AND KITS",
 };
