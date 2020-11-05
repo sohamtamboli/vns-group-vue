@@ -18,7 +18,7 @@ export const data = {
 	],
 	solutionProducts: [
 		{
-			img: require("../../assets/safety signs.png"),
+			img: require("../../assets/sign board2.jpg"),
 			name: "SIGN BOARDS",
 			url: "signboard",
 		},
@@ -384,4 +384,20 @@ export const labels = {
 	firehydrant: "FIRE HYDRANT SYSTEM",
 	firealarm: "FIRE ALARM SYSTEM",
 	firstaid: "FIRST AID AND KITS",
+	singlehv:"single hydrant valve",
+	doublehv:"double hydrant valve",
+	branchp:"branch pipe",
+	hosepipe:"hosepipe",
+	hosebox:"hosebox",
+	hosereel:"hosereel",
+	fireph:"fire pump hose",
+	firebI:"Fire Brigade Inlet",
+	monitor:"monitor",
+	sprinkler:"sprinkler",
+
+
+
+
+
+
 };

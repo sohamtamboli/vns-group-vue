@@ -10,11 +10,26 @@
 	import Nav from "@/components/Nav";
 	import footer_ from "@/components/footer";
 
+
 	export default {
+
 		components: {
 			Nav,
 			footer_,
+			
 		},
+		mounted () {
+		window.scrollTo(0, 0)
+		
+},
+	watch:{
+			$route() {
+						window.scrollTo(0, 0)
+
+			}
+			
+		}
+
 	};
 </script>
 <style>
