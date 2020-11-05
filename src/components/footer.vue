@@ -14,11 +14,10 @@
 							<h5>Menu</h5>
 							<ul class="list-unstyled quick-links">
 								<b-nav-item to="/">Home</b-nav-item>
-								<b-nav-item href="/#services">Services</b-nav-item>
-								<b-nav-item to="/projects">Projects</b-nav-item>
-
-								<b-nav-item to="/contact">Contact Us</b-nav-item>
 								<b-nav-item to="/about">About</b-nav-item>
+								<b-nav-item to="/projects">Projects</b-nav-item>
+								<b-nav-item href="/#services">Services</b-nav-item>
+								<b-nav-item to="/contact">Contact Us</b-nav-item>
 							</ul>
 						</div>
 						<div class="col-xs-12 col-sm-4 col-md-4">
