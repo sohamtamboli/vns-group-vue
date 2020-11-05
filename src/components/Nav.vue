@@ -24,7 +24,8 @@
 				<b-collapse id="nav-collapse" is-nav>
 					<b-navbar-nav class="ml-auto">
 						<b-nav-item to="/">Home</b-nav-item>
-						<b-nav-item href="/#services">Services</b-nav-item>
+						<b-nav-item to="/about">About</b-nav-item>
+
 						<b-nav-item to="/projects">Projects</b-nav-item>
 
 						<b-nav-item-dropdown text="Company">
@@ -35,9 +36,8 @@
 								>VNS Solutions</b-dropdown-item
 							>
 						</b-nav-item-dropdown>
-
+						<b-nav-item href="/#services">Services</b-nav-item>
 						<b-nav-item to="/contact">Contact Us</b-nav-item>
-						<b-nav-item to="/about">About</b-nav-item>
 					</b-navbar-nav>
 				</b-collapse>
 			</div>
