@@ -150,45 +150,176 @@ export const data = {
 	],
 	firehydrant: [
 		{
-			// img: require("../../assets/"),
+			img: require("../../assets/firehydrantsystem/singlehydrantvalue/SINGLE  HYDRANT VALVE.jpg"),
 			name: "SINGLE  HYDRANT VALVE  ",
+			url:"singlehv"
 		},
 		{
-			// img: require("../../assets/"),
-			name: "DOUBLE HYDRANT WALVE   ",
+			img: require("../../assets/firehydrantsystem/double hydrant valve/double value hydrant valve.png"),
+			name: "DOUBLE HYDRANT VALVE   ",
+			url:"doublehv"
 		},
 		{
-			// img: require("../../assets/"),
+			img: require("../../assets/firehydrantsystem/branchpipe/BRANCH PIPES.png"),
 			name: "BRANCH PIPES",
+			url:"branchp"
 		},
 		{
-			// img: require("../../assets/"),
+			img: require("../../assets/firehydrantsystem/hosepipe/HOSE PIPE.png"),
 			name: "HOSE PIPE ",
+			url:"hosepipe"
 		},
 		{
-			// img: require("../../assets/"),
+			img: require("../../assets/firehydrantsystem/hosebox/HOSE BOX.png"),
 			name: "HOSE BOX",
+			url:"hosebox"
 		},
 		{
-			// img: require("../../assets/"),
+			img: require("../../assets/firehydrantsystem/hose reel/hose reel.png"),
 			name: "HOSE REEL ",
+			url:"hosereel"
 		},
 		{
-			// img: require("../../assets/"),
+			img: require("../../assets/firehydrantsystem/fire pump hose/Fire Pump Hose.png"),
 			name: "Fire Pump Hose",
+			url:"fireph"
 		},
 		{
-			// img: require("../../assets/"),
+			img: require("../../assets/firehydrantsystem/Fire Brigade Inlet/Fire Brigade Inlet.png"),
 			name: "Fire Brigade Inlet ",
+			url:"firebI"
 		},
 		{
-			// img: require("../../assets/"),
+			img: require("../../assets/firehydrantsystem/monitor/Monitor.png"),
 			name: "Monitor  ",
+			url:"monitor"
 		},
 		{
-			// img: require("../../assets/"),
+			img: require("../../assets/firehydrantsystem/Sprinkler/fire-fighting-sprinkler-system.png"),
 			name: "Sprinkler  ",
+			url:"sprinkler"
 		},
+	],
+	singlehv:[
+		{
+			img: require("../../assets/firehydrantsystem/singlehydrantvalue/SINGLE  HYDRANT VALVE.jpg"),
+			name: "GUN METAL ",
+		},
+		{
+			img: require("../../assets/firehydrantsystem/singlehydrantvalue/single hydrant valve(SS).png"),
+			name: "STAINLESS STEEL (SS) ",
+		},
+		
+	],
+	doublehv:[
+		{
+			img: require("../../assets/firehydrantsystem/double hydrant valve/double value hydrant valve.png"),
+			name: "GUN METAL ",
+		},
+		{
+			img: require("../../assets/firehydrantsystem/double hydrant valve/double value hydrant valve(SS).png"),
+			name: "STAINLESS STEEL (SS) ",
+		},
+		
+	],
+	branchp:[
+		{
+			img: require("../../assets/firehydrantsystem/branchpipe/BRANCH PIPES - GUN metal.png"),
+			name: "GUN Metal ",
+		},
+		{
+			img: require("../../assets/firehydrantsystem/branchpipe/branch pipes STAINLESS STEEL (SS).png"),
+			name: "STAINLESS STEEL (SS) ",
+		},
+		{
+			img: require("../../assets/firehydrantsystem/branchpipe/BRANCH PIPES aluminuum.png"),
+			name: "Aluminium ",
+		},
+
+	],
+	hosepipe:[
+		{
+			img: require("../../assets/firehydrantsystem/hosepipe/hose pip RRL type(A).png"),
+			name: "RRL TYPE A",
+		},
+		{
+			img: require("../../assets/firehydrantsystem/hosepipe/HOSE PIP RRB TYPE(b).png"),
+			name: "RRL TYPE B",
+		},
+
+	],
+	hosebox:[
+		{
+			img: require("../../assets/firehydrantsystem/hosebox/HOSE BOX - double.png"),
+			name: "Double Hose box ",
+		},
+		{
+			img: require("../../assets/firehydrantsystem/hosebox/single host box.png"),
+			name: "Single Hose Box",
+		},
+	],
+	hosereel:[
+		{
+			img: require("../../assets/firehydrantsystem/hose reel/hose reel.png"),
+			name: "hose reel",
+		},
+		// {
+		// 	img: require("../../assets/firealarm/firepanel.png"),
+		// 	name: "hose reel 2 ",
+		// },
+
+	],
+	fireph:[
+		{
+			img: require("../../assets/firehydrantsystem/fire pump hose/Fire Pump Hose.png"),
+			name: "fire pump hose ",
+		},
+		// {
+		// 	img: require("../../assets/firealarm/firepanel.png"),
+		// 	name: "fireph2 ",
+		// },
+
+	],
+	firebI:[
+		{
+			img: require("../../assets/firehydrantsystem/Fire Brigade Inlet/Fire Brigade Inlet.png"),
+			name: "Two way",
+		},
+		{
+			img: require("../../assets/firehydrantsystem/Fire Brigade Inlet/three-way-fire-brigade-inlet.png"),
+			name: "Three way ",
+		},
+		{
+			img: require("../../assets/firehydrantsystem/Fire Brigade Inlet/4 way fire brigade inlet.png"),
+			name: "four way ",
+		},
+
+	],
+	monitor:[
+		{
+			img: require("../../assets/firehydrantsystem/monitor/fire-water-monitor.png"),
+			name: "Water monitor",
+		},
+		{
+			img: require("../../assets/firehydrantsystem/monitor/Monitor.png"),
+			name: "Foam Monitor",
+		},
+
+	],
+	sprinkler:[
+		{
+			img: require("../../assets/firehydrantsystem/Sprinkler/fire-fighting-sprinkler-system.png"),
+			name: "sprinkler1",
+		},
+		// {
+		// 	img: require("../../assets/firealarm/firepanel.png"),
+		// 	name: "sprinkler2",
+		// },
+		// {
+		// 	img: require("../../assets/firealarm/firepanel.png"),
+		// 	name: "sprinkler3",
+		// },
+
 	],
 	firealarm: [
 		{
