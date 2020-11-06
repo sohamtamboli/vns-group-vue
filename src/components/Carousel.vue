@@ -2,7 +2,7 @@
 	<div>
 		<b-carousel
 			id="carousel-1"
-			:interval="4000"
+			:interval="2000"
 			controls
 			indicators
 			class="slides"
@@ -33,26 +33,6 @@
 			<b-carousel-slide
 				class="slides"
 				caption="Third slide"
-				text="Nulla vitae elit libero, a pharetra augue mollis interdum."
-				><template v-slot:img>
-					<img
-						class="d-block img-fluid w-100"
-						src="https://source.unsplash.com/800x600/?dark,moody"
-						alt="image slot"/></template
-			></b-carousel-slide>
-			<b-carousel-slide
-				class="slides"
-				caption="Fourth slide"
-				text="Nulla vitae elit libero, a pharetra augue mollis interdum."
-				><template v-slot:img>
-					<img
-						class="d-block img-fluid w-100"
-						src="https://source.unsplash.com/800x600/?dark,moody"
-						alt="image slot"/></template
-			></b-carousel-slide>
-			<b-carousel-slide
-				class="slides"
-				caption="Fifth slide"
 				text="Nulla vitae elit libero, a pharetra augue mollis interdum."
 				><template v-slot:img>
 					<img
