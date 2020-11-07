@@ -2,17 +2,22 @@
 	<div>
 		<b-navbar
 			toggleable="lg"
-			type="dark"
-			variant="dark"
+			type="light"
+			variant="light"
 			fixed="top"
 			class="elemental"
 		>
 			<div class="contact">
-				<b-nav-text class="mx-2">contact number</b-nav-text>
-				<b-nav-text class="mx-2">email@mail.com</b-nav-text>
+				<b-nav-text class="mx-2 nav-contact">7701881430</b-nav-text>
+				<b-nav-text class="mx-2 nav-contact">vnsesafety@gmail.com</b-nav-text>
 			</div>
 			<div class="container">
-				<b-navbar-brand to="/">VNS Group</b-navbar-brand>
+				<b-navbar-brand to="/">
+					<div class="nav-img">
+						<img src="../assets/vnslogo_nav.jpg" />
+						VNS Group
+					</div></b-navbar-brand
+				>
 
 				<b-navbar-toggle class="ham-menu" target="nav-collapse">
 					<template v-slot:default="{ expanded }">
@@ -24,20 +29,20 @@
 				<b-collapse id="nav-collapse" is-nav>
 					<b-navbar-nav class="ml-auto">
 						<b-nav-item to="/">Home</b-nav-item>
-						<b-nav-item href="/#services">Services</b-nav-item>
+						<b-nav-item to="/about">About</b-nav-item>
+
 						<b-nav-item to="/projects">Projects</b-nav-item>
 
 						<b-nav-item-dropdown text="Company">
 							<b-dropdown-item to="/vnsenterprises" class="text-center"
 								>VNS Enterprises</b-dropdown-item
 							>
-							<b-dropdown-item to="#" class="text-center"
+							<b-dropdown-item to="/vnssolutions" class="text-center"
 								>VNS Solutions</b-dropdown-item
 							>
 						</b-nav-item-dropdown>
-
+						<b-nav-item href="">Privacy Policy</b-nav-item>
 						<b-nav-item to="/contact">Contact Us</b-nav-item>
-						<b-nav-item to="/about">About</b-nav-item>
 					</b-navbar-nav>
 				</b-collapse>
 			</div>
@@ -58,8 +63,21 @@
 	}
 	.elemental {
 		flex-direction: column;
+		box-shadow: 0px 5px 18px #888888;
 	}
 	.contact {
 		margin: 0 0 0 auto;
+	}
+	.nav-contact {
+		font-weight: bold;
+		text-decoration: underline;
+		font-size: 14px;
+	}
+	.nav-img {
+		display: flex;
+		align-items: center;
+	}
+	.nav-img img {
+		margin-right: 5px;
 	}
 </style>

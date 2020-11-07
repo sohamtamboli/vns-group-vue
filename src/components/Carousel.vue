@@ -2,7 +2,7 @@
 	<div>
 		<b-carousel
 			id="carousel-1"
-			:interval="4000"
+			:interval="2000"
 			controls
 			indicators
 			class="slides"
@@ -11,13 +11,14 @@
 		>
 			<!-- Text slides with image -->
 			<b-carousel-slide
+				
 				class="slides"
 				caption="First slide"
 				text="Nulla vitae elit libero, a pharetra augue mollis interdum."
 				><template v-slot:img>
 					<img
-						class="d-block img-fluid w-100"
-						src="https://source.unsplash.com/800x600/?dark,moody"
+						class="d-block img-fluid w-100 custom"
+						src="../assets/homescreen resize.png"
 						alt="image slot"/></template
 			></b-carousel-slide>
 			<b-carousel-slide
@@ -33,26 +34,6 @@
 			<b-carousel-slide
 				class="slides"
 				caption="Third slide"
-				text="Nulla vitae elit libero, a pharetra augue mollis interdum."
-				><template v-slot:img>
-					<img
-						class="d-block img-fluid w-100"
-						src="https://source.unsplash.com/800x600/?dark,moody"
-						alt="image slot"/></template
-			></b-carousel-slide>
-			<b-carousel-slide
-				class="slides"
-				caption="Fourth slide"
-				text="Nulla vitae elit libero, a pharetra augue mollis interdum."
-				><template v-slot:img>
-					<img
-						class="d-block img-fluid w-100"
-						src="https://source.unsplash.com/800x600/?dark,moody"
-						alt="image slot"/></template
-			></b-carousel-slide>
-			<b-carousel-slide
-				class="slides"
-				caption="Fifth slide"
 				text="Nulla vitae elit libero, a pharetra augue mollis interdum."
 				><template v-slot:img>
 					<img
@@ -77,6 +58,8 @@
 	.slides img {
 		min-height: 30em;
 		object-fit: cover;
+		object-position: center center;
+
 	}
 
 	@media (min-width: 960px) {

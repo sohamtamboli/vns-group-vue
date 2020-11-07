@@ -41,15 +41,51 @@
 					<div
 						class="card"
 						style="background-image:url('https://source.unsplash.com/random');background-size: cover;"
-					></div>
+					>
+						<div class="overlay">
+							<b-button v-b-modal="'modal3'">See Project 2</b-button>
+
+							<b-modal id="modal3" scrollable title="Scrollable Content">
+								<p class="my-4" v-for="i in 20" :key="i">
+									Cras mattis consectetur purus sit amet fermentum. Cras justo
+									odio, dapibus ac facilisis in, egestas eget quam. Morbi leo
+									risus, porta ac consectetur ac, vestibulum at eros.
+								</p>
+							</b-modal>
+						</div>
+					</div>
 					<div
 						class="card"
 						style="background-image:url('https://source.unsplash.com/random');background-size: cover;"
-					></div>
+					>
+						<div class="overlay">
+							<b-button v-b-modal="'modal4'">See Project 2</b-button>
+
+							<b-modal id="modal4" scrollable title="Scrollable Content">
+								<p class="my-4" v-for="i in 20" :key="i">
+									Cras mattis consectetur purus sit amet fermentum. Cras justo
+									odio, dapibus ac facilisis in, egestas eget quam. Morbi leo
+									risus, porta ac consectetur ac, vestibulum at eros.
+								</p>
+							</b-modal>
+						</div>
+					</div>
 					<div
 						class="card"
 						style="background-image:url('https://source.unsplash.com/random');background-size: cover;"
-					></div>
+					>
+						<div class="overlay">
+							<b-button v-b-modal="'modal5'">See Project 2</b-button>
+
+							<b-modal id="modal5" scrollable title="Scrollable Content">
+								<p class="my-4" v-for="i in 20" :key="i">
+									Cras mattis consectetur purus sit amet fermentum. Cras justo
+									odio, dapibus ac facilisis in, egestas eget quam. Morbi leo
+									risus, porta ac consectetur ac, vestibulum at eros.
+								</p>
+							</b-modal>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>

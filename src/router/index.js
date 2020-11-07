@@ -1,7 +1,6 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
 import Home from "../views/Home.vue";
-import About from "../components/AboutUs.vue";
 
 Vue.use(VueRouter);
 
@@ -29,7 +28,9 @@ const routes = [
 	{
 		path: "/about",
 		name: "About",
-		component: About,
+		component: () =>
+			import(/* webpackChunkName: "about" */ "../views/about.vue"),
+		
 	},
 	{
 		path: "/projects",
@@ -41,13 +42,33 @@ const routes = [
 			import(/* webpackChunkName: "projects" */ "../views/projects.vue"),
 	},
 	{
-		path: "/company",
-		name: "Company",
+		path: "/vnssolutions",
+		name: "VnsSolution",
 		// route level code-splitting
 		// this generates a separate chunk (company.[hash].js) for this route
 		// which is lazy-loaded when the route is visited.
 		component: () =>
-			import(/* webpackChunkName: "company" */ "../views/company.vue"),
+			import(/* webpackChunkName: "Solutions" */ "../views/vnssolutions.vue"),
+	},
+	{
+		path: "/vnsenterprises",
+		name: "vnsenterprise",
+		// route level code-splitting
+		// this generates a separate chunk (company.[hash].js) for this route
+		// which is lazy-loaded when the route is visited.
+		component: () =>
+			import(
+				/* webpackChunkName: "enterprises" */ "../views/vnsenterprises.vue"
+			),
+	},
+	{
+		path: "/subproducts",
+		name: "subproducts",
+		// route level code-splitting
+		// this generates a separate chunk (company.[hash].js) for this route
+		// which is lazy-loaded when the route is visited.
+		component: () =>
+			import(/* webpackChunkName: "subproducts" */ "../views/subproducts.vue"),
 	},
 ];
 
