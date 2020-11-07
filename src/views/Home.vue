@@ -1,7 +1,9 @@
 <template>
 	<div>
 		<Carousel />
+
 		<About />
+
 		<Services id="services" />
 		<ContactUs />
 	</div>
@@ -25,4 +27,13 @@
 		},
 	};
 </script>
-<style lang="css" scoped></style>
+<style lang="css" scoped>
+	#services::before {
+		display: block;
+		content: " ";
+		margin-top: -320px;
+		height: 304px;
+		visibility: hidden;
+		pointer-events: none;
+	}
+</style>

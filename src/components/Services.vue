@@ -1,6 +1,6 @@
 <template>
 	<div class="bg">
-		<h1 class="title">Our Services</h1>
+		<h1 class="title p-3">Our Services</h1>
 		<carousel
 			:autoplay="true"
 			:nav="false"

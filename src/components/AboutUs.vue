@@ -2,14 +2,11 @@
 	<div class="main">
 		<div class="grid-contain">
 			<div class="photo how-img  ">
-				<img
-					src="https://ultraworld-ecommerce.s3.amazonaws.com/media/product/outer_back-0158_800x.jpg"
-					class="img-fluid"
-					alt=""
-				/>
+				<img src="../assets/vnslogo.jpg" class="img-fluid" alt="" />
 			</div>
+
 			<div class="info ">
-				<h4>About Us</h4>
+				<h4>Who we are?</h4>
 				<h4 class="subheading">
 					VNS - Vital in Safety
 				</h4>
@@ -34,7 +31,7 @@
 	.grid-contain {
 		display: grid;
 		grid-auto-flow: column;
-		background-color: #ddd;
+		background-color: #fff;
 		padding: 40px;
 	}
 	.photo {
@@ -57,7 +54,7 @@
 		text-align: center;
 	}
 	.how-img img {
-		width: 50%;
+		width: 75%;
 	}
 	@media only screen and (max-width: 768px) {
 		.grid-contain {

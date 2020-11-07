@@ -10,29 +10,25 @@
 	import Nav from "@/components/Nav";
 	import footer_ from "@/components/footer";
 
-
 	export default {
-
 		components: {
 			Nav,
 			footer_,
-			
 		},
-		mounted () {
-		window.scrollTo(0, 0)
-		
-},
-	watch:{
+		mounted() {
+			window.scrollTo(0, 0);
+		},
+		watch: {
 			$route() {
-						window.scrollTo(0, 0)
-
-			}
-			
-		}
-
+				window.scrollTo(0, 0);
+			},
+		},
 	};
 </script>
 <style>
+	* {
+		scroll-behavior: smooth;
+	}
 	#app {
 		font-family: Avenir, Helvetica, Arial, sans-serif;
 		-webkit-font-smoothing: antialiased;
@@ -41,6 +37,6 @@
 		color: #2c3e50;
 	}
 	.blank {
-		height: 96px;
+		height: 112.8px;
 	}
 </style>
