@@ -7,24 +7,36 @@
 						<div class="col-xs-12 col-sm-4 col-md-4">
 							<h5>Address</h5>
 							<p class="address">
-								Address: 798 South Park Avenue, Jaipur,India
+							<span><b>Registration office: </b></span>Plot no 102,B/3,shivaji nagar 3,near sai mandir,A/P:peth vadgaon,Hatkanangle,Kolhapur,Maharashtra.
+							<span><b></b></span>
+							</p>
+							<p class="address">
+							<span><b>Branch1: </b></span>R.S no 586/4,In front of vishwakarma founders,HMT phata ,MIDC,shiroli,kolhapur.
+							<span><b></b></span>
+							</p>
+							<p class="address">
+							<span><b>Branch2: </b></span> R.S no 1247/67,near udyoga nadari patasanstha,shivaji vdyamanager,Kolhapur.
+							<span><b></b></span>
+							</p>
+							<p class="address">
+							<span><b>Branch3: </b></span>Flat No 5, S.No 50,siddhivinayak socity,Ambegao,Pune.
+							<span><b></b></span>
 							</p>
 						</div>
 						<div class="col-xs-12 col-sm-4 col-md-4">
-							<h5>Menu</h5>
+							<h5>Quick Links</h5>
 							<ul class="list-unstyled quick-links">
-								<b-nav-item to="/">Home</b-nav-item>
-								<b-nav-item to="/about">About</b-nav-item>
-								<b-nav-item to="/projects">Projects</b-nav-item>
-								<b-nav-item href="/#services">Services</b-nav-item>
-								<b-nav-item to="/contact">Contact Us</b-nav-item>
+								<b-nav-item class="link" to="/">Home</b-nav-item>
+								<b-nav-item class="link" to="/about">About</b-nav-item>
+								<b-nav-item class="link" to="/projects">Projects</b-nav-item>
+								<b-nav-item class="link" href="/#services">Services</b-nav-item>
+								<b-nav-item class="link" to="/contact">Contact Us</b-nav-item>
 							</ul>
 						</div>
 						<div class="col-xs-12 col-sm-4 col-md-4">
 							<h5>Contact</h5>
-
-							<p class="contact">phone:9881954758</p>
-							<p class="contact">email:Abc@gmail.com</p>
+							<p class="contact"><span><b>Phone No: </b></span><br>88056574586,<br>7701881430,<br>7709899191</p>
+							<p class="contact"><span><b>Email: </b></span> vnsesafety@gmail.com</p>
 						</div>
 					</div>
 					<!-- <div class="row">
@@ -33,7 +45,7 @@
 						<div
 							class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white"
 						>
-							<p class="h6">© All right Fire safety.</p>
+							<p class="h6">Copyright 2020 © VNS Group</p>
 						</div>
 						<hr />
 					</div>
@@ -73,20 +85,6 @@
 		background-color: transparent;
 		-webkit-text-decoration-skip: objects;
 	}
-	#footer ul.social li {
-		padding: 3px 0;
-	}
-	#footer ul.social li a i {
-		margin-right: 5px;
-		font-size: 25px;
-		-webkit-transition: 0.5s all ease;
-		-moz-transition: 0.5s all ease;
-		transition: 0.5s all ease;
-	}
-	#footer ul.social li:hover a i {
-		font-size: 30px;
-		margin-top: -10px;
-	}
 	#footer ul.social li a,
 	#footer ul.quick-links li a {
 		color: #ddd;
@@ -124,6 +122,10 @@
 		padding: 3px;
 		margin: 0;
 	}
+	.link{
+			text-align: left;
+			font-size: 14px;
+		}
 
 	@media (max-width: 767px) {
 		#footer h5 {
@@ -134,9 +136,29 @@
 			margin: 0 auto;
 			padding-bottom: 0px;
 			margin-bottom: 10px;
+			
 		}
+		
+		.address{
+			display: inline-block;
+			text-align: left;
+			font-size: 14px;
+
+		}
+		.link{
+			text-align: center;
+			font-size: 8px;
+		}
+		
+		.contact{
+			display: inline-block;
+			text-align: center;
+			font-size: 14px;
+		}
+		
 	}
 	p {
 		color: #ffffff;
 	}
+	
 </style>
