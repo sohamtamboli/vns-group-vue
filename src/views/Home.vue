@@ -17,7 +17,7 @@
 	import ContactUs from "@/components/Contactus";
 
 	export default {
-		title: "Home",
+		title: "VNS Home",
 		name: "Home",
 		components: {
 			Carousel,

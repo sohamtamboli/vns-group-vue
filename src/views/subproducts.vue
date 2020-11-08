@@ -12,6 +12,7 @@
 	import { data, labels } from "@/assets/ProductsData/products";
 
 	export default {
+		title: "Products",
 		components: { Products },
 		data() {
 			return {

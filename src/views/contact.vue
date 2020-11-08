@@ -1,21 +1,16 @@
 <template>
-    <div>
-        <ContactUs />
-
-    </div>
+	<div>
+		<ContactUs />
+	</div>
 </template>
 
 <script>
+	import ContactUs from "../components/Contactus";
 
-import ContactUs from '../components/Contactus';
-
-export default {
-    
-    
-    components:{
-        ContactUs,
-    },
-    
-
-}
+	export default {
+		title: "Contact Us",
+		components: {
+			ContactUs,
+		},
+	};
 </script>

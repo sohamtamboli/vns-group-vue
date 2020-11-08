@@ -7,39 +7,39 @@ export const data = {
 		},
 		{
 			img: require("../../assets/enterprisesProducts/fireext.png"),
-			name: "FIRE EXTINGUISHER",
+			name: "Fire Extinguisher",
 			url: "fireext",
 		},
 		{
 			img: require("../../assets/enterprisesProducts/wheelext.png"),
-			name: "WHEELED FIRE EXTINGUISHER",
+			name: "Wheeled Fire Extinguisher",
 			url: "wfireext",
 		},
 	],
 	solutionProducts: [
 		{
 			img: require("../../assets/sign board2.jpg"),
-			name: "SIGN BOARDS",
+			name: "Sign Boards",
 			url: "signboard",
 		},
 		{
 			img: require("../../assets/parking signs.png"),
-			name: "PARKING SAFETY PRODUCTS",
+			name: "Parking Safety",
 			url: "parksafe",
 		},
 		{
 			img: require("../../assets/fire hydrant.png"),
-			name: "FIRE HYDRANT SYSTEM",
+			name: "Fire Hydrant System",
 			url: "firehydrant",
 		},
 		{
 			img: require("../../assets/fire alarms.png"),
-			name: "FIRE ALARM SYSTEM",
+			name: "Fire Alarm System",
 			url: "firealarm",
 		},
 		{
 			img: require("../../assets/medkits.png"),
-			name: "FIRST AID AND KITS",
+			name: "First Aid And Kits",
 			url: "firstaid",
 		},
 	],
@@ -64,252 +64,256 @@ export const data = {
 	fireext: [
 		{
 			img: require("../../assets/fireext/ABC  CARTRIDGE & STORED PRESSURE.png"),
-			name: "ABC STORED PRESSURE ",
+			name: "ABC Stored Pressure ",
 			text: "1KG, 2KG, 4KG, 6 KG AND 9 KG",
 		},
 		{
 			img: require("../../assets/fireext/ABC STORED PRESSURE – 1KG, 2KG, 4KG, 6 KG AND 9 KG.png"),
-			name: "ABC  CARTRIDGE & STORED PRESSURE ",
+			name: "ABC  Cartridge & Stored Pressure ",
 			text: "4KG ,6KG ,9KG",
 		},
 		{
 			img: require("../../assets/fireext/BC STORED PRESSURE AND CARTRIDGE TYPE.png"),
-			name: "BC STORED PRESSURE AND CARTRIDGE TYPE",
+			name: "BC Stored Pressure And Cartridge Type",
 			text: "4KG, 6KG, 9KG",
 		},
 		{
 			img: require("../../assets/fireext/CO2 TYPE FIRE EXTINGUISHER (CARBON DIOXIDE)  -  2KG , 3 KG,4.5 KG.png"),
-			name: "CO2 TYPE FIRE EXTINGUISHER (CARBON DIOXIDE)",
+			name: "CO2 Type Fire Extinguisher (Carbon Dioxide)",
 			text: "2KG, 3KG, 4.5KG",
 		},
 		{
 			img: require("../../assets/fireext/MECHANICAL FOAM TYPE FIRE EXTINGUISHER – 6 LTR , 9 LTR.png"),
-			name: "MECHANICAL FOAM TYPE FIRE EXTINGUISHER  ",
+			name: "Mechanical Foam Type Fire Extinguisher  ",
 			text: "6LTR , 9LTR",
 		},
 		{
 			img: require("../../assets/fireext/WATER FOAM TYPE FIRE EXTINGUISHER (WATER )-      6 LTR, 9 LTR.png"),
-			name: "WATER FOAM TYPE FIRE EXTINGUISHER (WATER ) ",
+			name: "Water Foam Type Fire Extinguisher (Water) ",
 			text: "6 LTR, 9 LTR",
 		},
 		{
 			img: require("../../assets/fireext/KITCHEN FIRE EXTINGUISHER (WET CHEMICAL )   K CLASS -4 LTR, 6 LTR,9 LTR.png"),
-			name: "KITCHEN FIRE EXTINGUISHER (WET CHEMICAL) K CLASS",
+			name: "Kitchen Fire Extinguisher (Wet Chemical) K Class",
 			text: "4LTR, 6LTR, 9LTR",
 		},
 	],
 	wfireext: [
 		{
 			img: require("../../assets/wheeled/wheelfe1.png"),
-			name: "DRY CHEMICAL POWDER ABC TYPE ",
+			name: "Dry Chemical Powder ABC Type ",
 		},
 		{
 			img: require("../../assets/wheeled/wheelfe2.png"),
-			name: "DRY CHEMICAL POWDER BC TYPE ",
+			name: "Dry Chemical Powder BC Type ",
 		},
 		{
 			img: require("../../assets/wheeled/wheelfe3.png"),
-			name: "CARBON DIOXIDE TYPE (CO2)",
+			name: "Carbon Dioxide Type (CO2)",
 		},
 		{
 			img: require("../../assets/wheeled/wheelfe4.png"),
-			name: "FOAM / WATER BASED TYPE ",
+			name: "Foam / Water Based Type ",
 		},
 	],
 	signboard: [
 		{
+			img: require("../../assets/signboards/assembly point.png"),
+			name: "Assembly Point",
+		},
+		{
 			img: require("../../assets/signboards/fire-exit-door-signs.jpg"),
-			name: "fire exit doors signs",
+			name: "Fire Exit Doors Signs",
 		},
 		{
 			img: require("../../assets/signboards/fire-exit-marking-signage.jpg"),
-			name: "fire exit marking signage",
+			name: "Fire Exit Marking Signage",
 		},
 		{
 			img: require("../../assets/signboards/illuminated-fire-exit-signs.jpg"),
-			name: "illuminated fire exit signs",
+			name: "Illuminated Fire Exit Signs",
 		},
 		{
 			img: require("../../assets/signboards/warning-signage-section-image.jpg"),
-			name: "warning signage section image",
+			name: "Warning Signage Section Image",
 		},
 	],
 	parksafe: [
 		{
 			img: require("../../assets/parking/traffic cones.png"),
-			name: "traffic cones",
+			name: "Traffic Cones",
 		},
 		{
 			img: require("../../assets/parking/plastic speed breaker.png"),
-			name: "plastic speed breaker",
+			name: "Plastic Speed Breaker",
 		},
 		{
 			img: require("../../assets/parking/road barrier.png"),
-			name: "road barrier",
+			name: "Road Barrier",
+		},
+		{
+			img: require("../../assets/parking/roadposts.png"),
+			name: "Floor stands",
+		},
+		{
+			img: require("../../assets/parking/spring post.png"),
+			name: "PU Spring Posts",
 		},
 	],
 	firehydrant: [
 		{
 			img: require("../../assets/firehydrantsystem/singlehydrantvalue/SINGLE  HYDRANT VALVE.jpg"),
-			name: "SINGLE  HYDRANT VALVE  ",
-			url:"singlehv"
+			name: "Single  Hydrant Valve  ",
+			url: "singlehv",
 		},
 		{
 			img: require("../../assets/firehydrantsystem/double hydrant valve/double value hydrant valve.png"),
-			name: "DOUBLE HYDRANT VALVE   ",
-			url:"doublehv"
+			name: "Double Hydrant Valve   ",
+			url: "doublehv",
 		},
 		{
 			img: require("../../assets/firehydrantsystem/branchpipe/BRANCH PIPES.png"),
-			name: "BRANCH PIPES",
-			url:"branchp"
+			name: "Branch Pipes",
+			url: "branchp",
 		},
 		{
 			img: require("../../assets/firehydrantsystem/hosepipe/HOSE PIPE.png"),
-			name: "HOSE PIPE ",
-			url:"hosepipe"
+			name: "Hose Pipe ",
+			url: "hosepipe",
 		},
 		{
 			img: require("../../assets/firehydrantsystem/hosebox/HOSE BOX.png"),
-			name: "HOSE BOX",
-			url:"hosebox"
+			name: "Hose Box",
+			url: "hosebox",
 		},
 		{
 			img: require("../../assets/firehydrantsystem/hose reel/hose reel.png"),
-			name: "HOSE REEL ",
-			url:"hosereel"
+			name: "Hose Reel ",
+			url: "hosereel",
 		},
 		{
 			img: require("../../assets/firehydrantsystem/fire pump hose/Fire Pump Hose.png"),
 			name: "Fire Pump Hose",
-			url:"fireph"
+			url: "fireph",
 		},
 		{
 			img: require("../../assets/firehydrantsystem/Fire Brigade Inlet/Fire Brigade Inlet.png"),
 			name: "Fire Brigade Inlet ",
-			url:"firebI"
+			url: "firebI",
 		},
 		{
 			img: require("../../assets/firehydrantsystem/monitor/Monitor.png"),
 			name: "Monitor  ",
-			url:"monitor"
+			url: "monitor",
 		},
 		{
 			img: require("../../assets/firehydrantsystem/Sprinkler/fire-fighting-sprinkler-system.png"),
 			name: "Sprinkler  ",
-			url:"sprinkler"
+			url: "sprinkler",
 		},
 	],
-	singlehv:[
+	singlehv: [
 		{
 			img: require("../../assets/firehydrantsystem/singlehydrantvalue/SINGLE  HYDRANT VALVE.jpg"),
-			name: "GUN METAL ",
+			name: "Gun Metal ",
 		},
 		{
 			img: require("../../assets/firehydrantsystem/singlehydrantvalue/single hydrant valve(SS).png"),
-			name: "STAINLESS STEEL (SS) ",
+			name: "Stainless Steel  ",
 		},
-		
 	],
-	doublehv:[
+	doublehv: [
 		{
 			img: require("../../assets/firehydrantsystem/double hydrant valve/double value hydrant valve.png"),
-			name: "GUN METAL ",
+			name: "Gun Metal ",
 		},
 		{
 			img: require("../../assets/firehydrantsystem/double hydrant valve/double value hydrant valve(SS).png"),
-			name: "STAINLESS STEEL (SS) ",
+			name: "Stainless Steel  ",
 		},
-		
 	],
-	branchp:[
+	branchp: [
 		{
 			img: require("../../assets/firehydrantsystem/branchpipe/BRANCH PIPES - GUN metal.png"),
-			name: "GUN Metal ",
+			name: "Gun Metal ",
 		},
 		{
 			img: require("../../assets/firehydrantsystem/branchpipe/branch pipes STAINLESS STEEL (SS).png"),
-			name: "STAINLESS STEEL (SS) ",
+			name: "Stainless Steel  ",
 		},
 		{
 			img: require("../../assets/firehydrantsystem/branchpipe/BRANCH PIPES aluminuum.png"),
 			name: "Aluminium ",
 		},
-
 	],
-	hosepipe:[
+	hosepipe: [
 		{
 			img: require("../../assets/firehydrantsystem/hosepipe/hose pip RRL type(A).png"),
-			name: "RRL TYPE A",
+			name: "Rrl Type A",
 		},
 		{
 			img: require("../../assets/firehydrantsystem/hosepipe/HOSE PIP RRB TYPE(b).png"),
-			name: "RRL TYPE B",
+			name: "Rrl Type B",
 		},
-
 	],
-	hosebox:[
+	hosebox: [
 		{
 			img: require("../../assets/firehydrantsystem/hosebox/HOSE BOX - double.png"),
-			name: "Double Hose box ",
+			name: "Double Hose Box ",
 		},
 		{
 			img: require("../../assets/firehydrantsystem/hosebox/single host box.png"),
 			name: "Single Hose Box",
 		},
 	],
-	hosereel:[
+	hosereel: [
 		{
 			img: require("../../assets/firehydrantsystem/hose reel/hose reel.png"),
-			name: "hose reel",
+			name: "Hose Reel",
 		},
 		// {
 		// 	img: require("../../assets/firealarm/firepanel.png"),
 		// 	name: "hose reel 2 ",
 		// },
-
 	],
-	fireph:[
+	fireph: [
 		{
 			img: require("../../assets/firehydrantsystem/fire pump hose/Fire Pump Hose.png"),
-			name: "fire pump hose ",
+			name: "Fire Pump Hose ",
 		},
 		// {
 		// 	img: require("../../assets/firealarm/firepanel.png"),
 		// 	name: "fireph2 ",
 		// },
-
 	],
-	firebI:[
+	firebI: [
 		{
 			img: require("../../assets/firehydrantsystem/Fire Brigade Inlet/Fire Brigade Inlet.png"),
-			name: "Two way",
+			name: "Two Way",
 		},
 		{
 			img: require("../../assets/firehydrantsystem/Fire Brigade Inlet/three-way-fire-brigade-inlet.png"),
-			name: "Three way ",
+			name: "Three Way ",
 		},
 		{
 			img: require("../../assets/firehydrantsystem/Fire Brigade Inlet/4 way fire brigade inlet.png"),
-			name: "four way ",
+			name: "Four Way ",
 		},
-
 	],
-	monitor:[
+	monitor: [
 		{
 			img: require("../../assets/firehydrantsystem/monitor/fire-water-monitor.png"),
-			name: "Water monitor",
+			name: "Water Monitor",
 		},
 		{
 			img: require("../../assets/firehydrantsystem/monitor/Monitor.png"),
 			name: "Foam Monitor",
 		},
-
 	],
-	sprinkler:[
+	sprinkler: [
 		{
 			img: require("../../assets/firehydrantsystem/Sprinkler/fire-fighting-sprinkler-system.png"),
-			name: "sprinkler1",
+			name: "Sprinkler",
 		},
 		// {
 		// 	img: require("../../assets/firealarm/firepanel.png"),
@@ -319,7 +323,6 @@ export const data = {
 		// 	img: require("../../assets/firealarm/firepanel.png"),
 		// 	name: "sprinkler3",
 		// },
-
 	],
 	firealarm: [
 		{
@@ -346,31 +349,31 @@ export const data = {
 	firstaid: [
 		{
 			img: require("../../assets/medkits/alpha standard burn kit.jpg"),
-			name: "alpha standard burn kit ",
+			name: "Alpha Standard Burn Kit ",
 		},
 		{
 			img: require("../../assets/medkits/burnshield dressing.jpg"),
-			name: "burnshield dressing ",
+			name: "Burnshield Dressing ",
 		},
 		{
 			img: require("../../assets/medkits/burnshield responder kit.jpg"),
-			name: "burnshield responder kit ",
+			name: "Burnshield Responder Kit ",
 		},
 		{
 			img: require("../../assets/medkits/personal issue first aid kit.jpg"),
-			name: "personal issue first aid kit ",
+			name: "Personal Issue First Aid Kit ",
 		},
 		{
 			img: require("../../assets/medkits/signature eye wash kit.jpg"),
-			name: "signature eye wash kit ",
+			name: "Signature Eye Wash Kit ",
 		},
 		{
 			img: require("../../assets/medkits/soft case home first aid kit.jpg"),
-			name: "soft case home first aid kit ",
+			name: "Soft Case Home First Aid Kit ",
 		},
 		{
 			img: require("../../assets/medkits/travel and motoring first aid kit.jpg"),
-			name: "travel and motoring first aid kit ",
+			name: "Travel And Motoring First Aid Kit ",
 		},
 	],
 };
@@ -384,20 +387,14 @@ export const labels = {
 	firehydrant: "FIRE HYDRANT SYSTEM",
 	firealarm: "FIRE ALARM SYSTEM",
 	firstaid: "FIRST AID AND KITS",
-	singlehv:"single hydrant valve",
-	doublehv:"double hydrant valve",
-	branchp:"branch pipe",
-	hosepipe:"hosepipe",
-	hosebox:"hosebox",
-	hosereel:"hosereel",
-	fireph:"fire pump hose",
-	firebI:"Fire Brigade Inlet",
-	monitor:"monitor",
-	sprinkler:"sprinkler",
-
-
-
-
-
-
+	singlehv: "SINGLE HYDRANT VALVE",
+	doublehv: "DOUBLE HYDRANT VALVE",
+	branchp: "BRANCH PIPE",
+	hosepipe: "HOSEPIPE",
+	hosebox: "HOSEBOX",
+	hosereel: "HOSEREEL",
+	fireph: "FIRE PUMP HOSE",
+	firebI: "FIRE BRIGADE INLET",
+	monitor: "MONITOR",
+	sprinkler: "SPRINKLER",
 };

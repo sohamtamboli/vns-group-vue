@@ -64,6 +64,7 @@
 	.elemental {
 		flex-direction: column;
 		box-shadow: 0px 5px 18px #888888;
+		background: #fff !important ;
 	}
 	.contact {
 		margin: 0 0 0 auto;

@@ -7,6 +7,7 @@
 <script>
 	import Project from "@/components/Project";
 	export default {
+		title: "Projects",
 		components: {
 			Project,
 		},
