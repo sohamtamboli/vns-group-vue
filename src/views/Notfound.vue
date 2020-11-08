@@ -1,7 +1,9 @@
 <template>
 <div class="not-found">
-    <div class="container mt-3">
-        <h1 id="notfound">{{message}}</h1>
+    <div class="jumbotron mt-3">
+        <div class="fx">
+            <h1 id="notfound">{{message}}</h1>
+        </div>
     </div>
 </div>
 </template>
@@ -21,5 +23,14 @@ export default {
     #notfound{
         color: red;
         text-align: center;
+    }
+    .fx{
+        display: grid;
+        grid-template-rows: 300px;
+        
+    }
+    .fx h1{
+        justify-content: center;
+        align-items: center;
     }
 </style>
