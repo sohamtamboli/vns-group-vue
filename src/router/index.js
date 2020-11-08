@@ -10,12 +10,7 @@ const routes = [
 		name: "Home",
 		component: Home,
 	},
-	{
-		path: "*",
-		name: "notD",
-		component: () =>
-			import(/* webpackChunkName: "Error" */ "../views/Notfound.vue"),
-	},
+	
 	{
 		path: "/contact",
 		name: "Contact Us",
@@ -30,6 +25,11 @@ const routes = [
 		name: "About",
 		component: () =>
 			import(/* webpackChunkName: "about" */ "../views/about.vue"),
+		
+	},
+	{
+		path: "/admin",
+		name: "admin",
 		
 	},
 	{
@@ -69,6 +69,12 @@ const routes = [
 		// which is lazy-loaded when the route is visited.
 		component: () =>
 			import(/* webpackChunkName: "subproducts" */ "../views/subproducts.vue"),
+	},
+	{
+		path: "*",
+		name: "notD",
+		component: () =>
+			import(/* webpackChunkName: "Error" */ "../views/Notfound.vue"),
 	},
 ];
 
