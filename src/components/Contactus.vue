@@ -40,7 +40,7 @@
 			</b-form-group>
 
 			<div class="form-group row">
-				<b-button pill variant="success" type="submit" class="btn btn-cust"
+				<b-button pill variant="success" type="submit" class="btn btn-cust mx-auto"
 					>Submit</b-button
 				>
 			</div>
