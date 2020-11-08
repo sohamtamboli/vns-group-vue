@@ -38,8 +38,9 @@
 
 <style lang="css" scoped>
 	.bg {
-		background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-			url("https://images.unsplash.com/photo-1602872250608-a17f7ba8933d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80");
+		/* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+			url("https://images.unsplash.com/photo-1602872250608-a17f7ba8933d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"); */
+		background-color: black;
 		background-repeat: no-repeat;
 		background-position: center bottom;
 		background-size: cover;
