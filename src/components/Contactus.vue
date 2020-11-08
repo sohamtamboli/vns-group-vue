@@ -1,5 +1,5 @@
 <template>
-	<div class="container my-2 form-contact">
+	<div class="container my-3 form-contact">
 		<h2>Contact Us</h2>
 		<hr />
 		<b-form @submit="onSubmit" @reset="onReset">
