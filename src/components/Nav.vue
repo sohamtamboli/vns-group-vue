@@ -8,7 +8,7 @@
 			class="elemental"
 		>
 			<div class="contact">
-				<b-nav-text class="mx-2 nav-contact">7701881430</b-nav-text>
+				<b-nav-text class="mx-2 nav-contact"><b-icon icon="telephone" animation="fade" font-scale="1"></b-icon>7701881430</b-nav-text>
 				<b-nav-text class="mx-2 nav-contact">vnsesafety@gmail.com</b-nav-text>
 			</div>
 			<div class="container">
