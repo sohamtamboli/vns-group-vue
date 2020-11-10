@@ -5,24 +5,43 @@
 			:autoplay="true"
 			:nav="false"
 			:dots="false"
-			:responsive="{ 0: { items: 2 }, 600: { items: 5 } }"
+			:responsive="{ 0: { items: 1 }, 600: { items: 5 } }"
 			:stagePadding="20"
 			loop
 		>
 			<div class="img-container">
-				<img class="item" src="https://placeimg.com/200/200/any?1" />
+				<img class="item" src="../assets/servicesicons/AMC for fire extinguisher & fire  hydrant system icon.png" />
+				<h6>AMC for fire extinguisher & fire  hydrant system</h6> 
 			</div>
 			<div class="img-container">
-				<img class="item" src="https://placeimg.com/200/200/any?5" />
+				<img class="item" src="../assets/servicesicons/commission fire hydrant system  icon.png" />
+				<h6>Commission fire hydrant system</h6>
+
 			</div>
 			<div class="img-container">
-				<img class="item" src="https://placeimg.com/200/200/any?4" />
+				<img class="item" src="../assets/servicesicons/commission fire hydrant system  icon.png" />
+				<h6>Consulting for to obtain fire  Noc</h6>
+
 			</div>
 			<div class="img-container">
-				<img class="item" src="https://placeimg.com/200/200/any?2" />
+				<img class="item" src="../assets/servicesicons/consulting for to obtain fire  Noc.png" />
+				<h6>Consulting for to obtain fire  Noc</h6>
+
 			</div>
 			<div class="img-container">
-				<img class="item" src="https://placeimg.com/200/200/any?3" />
+				<img class="item" src="../assets/servicesicons/distribution of sprinklers, smock  detector, control panel icon.png" />
+				<h6>Distribution of Sprinklers, Smock  detector, Control panel</h6>
+
+			</div>
+			<div class="img-container">
+				<img class="item" src="../assets/servicesicons/HTP test for fire extinguisher  icon.png" />
+				<h6>HTP test for Fire extinguisher</h6>
+
+			</div>
+			<div class="img-container">
+				<img class="item" src="../assets/servicesicons/supple new Fire extinguish &  refilling yearly icon.png" />
+				<h6>Supple new Fire extinguish &  Refilling yearly icon</h6>
+
 			</div>
 		</carousel>
 	</div>
@@ -44,7 +63,7 @@
 		background-repeat: no-repeat;
 		background-position: center bottom;
 		background-size: cover;
-		padding: 48px 32px;
+		padding: 80px 32px;
 	}
 	.title {
 		text-align: center;
@@ -52,7 +71,20 @@
 	}
 
 	.img-container .item {
-		padding: 6px 4px;
-		max-height: 120px;
+		padding: 30px 105px;
+		max-height: 100px;
 	}
+	h6{
+		color: #ffffff;
+		text-align: center;
+	}
+	@media (max-width: 600px) {
+		.img-container .item {
+		padding: 30px 125px;
+		max-height: 150px;
+	}
+
+	}
+	
+	
 </style>
