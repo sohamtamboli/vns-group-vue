@@ -53,7 +53,7 @@
 							<h5>Contact</h5>
 							<p class="contact">
 								<span><b>Phone No: </b></span
-								><br />88056574586,<br />7701881430,<br />7709899191
+								><br />8806574586,<br />7701881430,<br />7709844141
 							</p>
 							<p class="contact">
 								<span><b>Email: </b></span> vnsesafety@gmail.com
