@@ -10,7 +10,7 @@ const routes = [
 		name: "Home",
 		component: Home,
 	},
-	
+
 	{
 		path: "/contact",
 		name: "Contact Us",
@@ -25,12 +25,10 @@ const routes = [
 		name: "About",
 		component: () =>
 			import(/* webpackChunkName: "about" */ "../views/about.vue"),
-		
 	},
 	{
 		path: "/admin",
 		name: "admin",
-		
 	},
 	{
 		path: "/projects",
@@ -75,6 +73,14 @@ const routes = [
 		name: "notD",
 		component: () =>
 			import(/* webpackChunkName: "Error" */ "../views/Notfound.vue"),
+	},
+	{
+		path: "/privacypolicy",
+		name: "PrivacyPolicy",
+		component: () =>
+			import(
+				/* webpackChunkName: "privacypolicy" */ "../views/privacypolicy.vue"
+			),
 	},
 ];
 

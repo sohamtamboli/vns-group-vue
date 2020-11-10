@@ -41,7 +41,7 @@
 								>VNS Solutions</b-dropdown-item
 							>
 						</b-nav-item-dropdown>
-						<b-nav-item href="">Privacy Policy</b-nav-item>
+						<b-nav-item to="/privacypolicy">Privacy Policy</b-nav-item>
 						<b-nav-item to="/contact">Contact Us</b-nav-item>
 					</b-navbar-nav>
 				</b-collapse>
