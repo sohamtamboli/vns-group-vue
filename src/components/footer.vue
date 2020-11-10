@@ -7,10 +7,14 @@
 						<div class="col-xs-12 col-sm-4 col-md-4">
 							<h5>Address</h5>
 							<p class="address">
-								<span><b>Registration Office: </b></span>Plot no 102,B/3,shivaji
-								nagar 3,near sai mandir,A/P:peth
-								vadgaon,Hatkanangle,Kolhapur,Maharashtra.
-								<span><b></b></span>
+										<span><b>Branch1: </b></span>R.S no 586/4,In front of
+										vishwakarma founders,HMT phata ,MIDC,shiroli,kolhapur.
+										<span><b></b></span>
+							</p>
+							<p class="address">
+										<span><b>Branch2: </b></span> R.S no 1247/67,near udyoga
+										nadari patasanstha,shivaji vdyamanager,Kolhapur.
+										<span><b></b></span>
 							</p>
 							<b-button
 								v-b-toggle="'collapse-1'"
@@ -22,19 +26,16 @@
 							<b-collapse id="collapse-1">
 								<div class="mt-2">
 									<p class="address">
-										<span><b>Branch1: </b></span>R.S no 586/4,In front of
-										vishwakarma founders,HMT phata ,MIDC,shiroli,kolhapur.
-										<span><b></b></span>
-									</p>
-									<p class="address">
-										<span><b>Branch2: </b></span> R.S no 1247/67,near udyoga
-										nadari patasanstha,shivaji vdyamanager,Kolhapur.
-										<span><b></b></span>
-									</p>
-									<p class="address">
 										<span><b>Branch3: </b></span>Flat No 5, S.No
 										50,siddhivinayak socity,Ambegao,Pune. <span><b></b></span>
 									</p>
+									<p class="address">
+										<span><b>Registration Office: </b></span>Plot no 102,B/3,shivaji
+										nagar 3,near sai mandir,A/P:peth
+										vadgaon,Hatkanangle,Kolhapur,Maharashtra.
+										<span><b></b></span>
+									</p>
+									
 								</div>
 							</b-collapse>
 						</div>
