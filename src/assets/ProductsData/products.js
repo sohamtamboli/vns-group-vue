@@ -192,8 +192,8 @@ export const data = {
 			url: "hosereel",
 		},
 		{
-			img: require("../../assets/firehydrantsystem/fire pump hose/Fire Pump Hose.png"),
-			name: "Fire Pump Hose",
+			img: require("../../assets/firehydrantsystem/fire pump hose/jockey pump.png"),
+			name: "jockey pump",
 			url: "fireph",
 		},
 		{
@@ -281,10 +281,18 @@ export const data = {
 			img: require("../../assets/firehydrantsystem/fire pump hose/Fire Pump Hose.png"),
 			name: "Fire Pump Hose ",
 		},
-		// {
-		// 	img: require("../../assets/firealarm/firepanel.png"),
-		// 	name: "fireph2 ",
-		// },
+		{
+			img: require("../../assets/firehydrantsystem/fire pump hose/diesel engine.png"),
+			name: "diesel engine ",
+		},
+		{
+			img: require("../../assets/firehydrantsystem/fire pump hose/jockey pump.png"),
+			name: "jockey pump",
+		},
+		{
+			img: require("../../assets/firehydrantsystem/fire pump hose/main pump.png"),
+			name: "main pump",
+		},
 	],
 	firebI: [
 		{
