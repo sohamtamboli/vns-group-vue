@@ -10,38 +10,46 @@
 			loop
 		>
 			<div class="img-container">
-				<img class="item" src="../assets/servicesicons/AMC for fire extinguisher & fire  hydrant system icon.png" />
-				<h6>AMC for fire extinguisher & fire  hydrant system</h6> 
+				<img
+					class="item"
+					src="../assets/servicesicons/AMC for fire extinguisher & fire  hydrant system icon.png"
+				/>
+				<h6>AMC for fire extinguisher & fire hydrant system</h6>
 			</div>
 			<div class="img-container">
-				<img class="item" src="../assets/servicesicons/commission fire hydrant system  icon.png" />
+				<img
+					class="item"
+					src="../assets/servicesicons/commission fire hydrant system  icon.png"
+				/>
 				<h6>Commission fire hydrant system</h6>
-
 			</div>
 			<div class="img-container">
-				<img class="item" src="../assets/servicesicons/commission fire hydrant system  icon.png" />
-				<h6>Consulting for to obtain fire  Noc</h6>
-
+				<img
+					class="item"
+					src="../assets/servicesicons/consulting for to obtain fire  Noc.png"
+				/>
+				<h6>Consulting for to obtain fire Noc</h6>
 			</div>
 			<div class="img-container">
-				<img class="item" src="../assets/servicesicons/consulting for to obtain fire  Noc.png" />
-				<h6>Consulting for to obtain fire  Noc</h6>
-
+				<img
+					class="item"
+					src="../assets/servicesicons/distribution of sprinklers, smock  detector, control panel icon.png"
+				/>
+				<h6>Distribution of Sprinklers, Smock detector, Control panel</h6>
 			</div>
 			<div class="img-container">
-				<img class="item" src="../assets/servicesicons/distribution of sprinklers, smock  detector, control panel icon.png" />
-				<h6>Distribution of Sprinklers, Smock  detector, Control panel</h6>
-
-			</div>
-			<div class="img-container">
-				<img class="item" src="../assets/servicesicons/HTP test for fire extinguisher  icon.png" />
+				<img
+					class="item"
+					src="../assets/servicesicons/HTP test for fire extinguisher  icon.png"
+				/>
 				<h6>HTP test for Fire extinguisher</h6>
-
 			</div>
 			<div class="img-container">
-				<img class="item" src="../assets/servicesicons/supple new Fire extinguish &  refilling yearly icon.png" />
-				<h6>Supple new Fire extinguish &  Refilling yearly icon</h6>
-
+				<img
+					class="item"
+					src="../assets/servicesicons/supple new Fire extinguish &  refilling yearly icon.png"
+				/>
+				<h6>Supple new Fire extinguish & Refilling yearly icon</h6>
 			</div>
 		</carousel>
 	</div>
@@ -71,20 +79,17 @@
 	}
 
 	.img-container .item {
-		padding: 30px 105px;
+		padding: 30px 115px;
 		max-height: 100px;
 	}
-	h6{
+	h6 {
 		color: #ffffff;
 		text-align: center;
 	}
 	@media (max-width: 600px) {
 		.img-container .item {
-		padding: 30px 125px;
-		max-height: 150px;
+			padding: 30px 125px;
+			max-height: 150px;
+		}
 	}
-
-	}
-	
-	
 </style>

@@ -14,7 +14,7 @@
 				><template v-slot:img>
 					<img
 						class="d-block img-fluid w-100 custom"
-						src="../assets/homepage1.png"
+						:src="firstimg"
 						alt="image slot"/></template
 			></b-carousel-slide>
 			<b-carousel-slide class="slides" caption="Vital in Safety" text=""
@@ -38,6 +38,13 @@
 <script>
 	export default {
 		name: "Carousel",
+		mounted() {
+			if (screen.width < 600) {
+				this.firstimg = require("../assets/homepage1mobile.png");
+			} else {
+				this.firstimg = require("../assets/homepage1.png");
+			}
+		},
 	};
 </script>
 

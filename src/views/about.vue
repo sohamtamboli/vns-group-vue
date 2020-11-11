@@ -68,7 +68,7 @@
 		padding: 2rem;
 		height: 25rem;
 		background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-			url("../assets/aboutus1.jpg");
+			url("../assets/about us new.jpg");
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: center;
@@ -109,7 +109,7 @@
 			padding: 2rem;
 			height: 12rem;
 			background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-				url("../assets/aboutus3.png");
+				url("../assets/about us new.jpg");
 			background-size: cover;
 			background-repeat: no-repeat;
 			background-position: center;

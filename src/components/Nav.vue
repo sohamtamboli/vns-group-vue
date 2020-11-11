@@ -8,14 +8,21 @@
 			class="elemental"
 		>
 			<div class="contact">
-				<b-nav-text class="mx-2 nav-contact"><b-icon icon="telephone" animation="fade" font-scale="1"></b-icon>7701881430</b-nav-text>
-				<b-nav-text class="mx-2 nav-contact">vnsesafety@gmail.com</b-nav-text>
+				<b-nav-text class="mx-2 nav-contact"
+					><b-icon icon="telephone" animation="fade" font-scale="1"></b-icon
+					><a href="tel:7701881430">7701881430</a></b-nav-text
+				>
+				<b-nav-text class="mx-2 nav-contact"
+					><a href="mailto:vnsesafety@gmail.com"
+						>vnsesafety@gmail.com</a
+					></b-nav-text
+				>
 			</div>
 			<div class="container">
 				<b-navbar-brand to="/">
 					<div class="nav-img">
 						<img src="../assets/vnslogo_nav.jpg" />
-						VNS Group
+						VNS GROUP
 					</div></b-navbar-brand
 				>
 
@@ -30,8 +37,6 @@
 					<b-navbar-nav class="ml-auto">
 						<b-nav-item to="/">Home</b-nav-item>
 						<b-nav-item to="/about">About</b-nav-item>
-
-						<b-nav-item to="/projects">Projects</b-nav-item>
 
 						<b-nav-item-dropdown text="Company">
 							<b-dropdown-item to="/vnsenterprises" class="text-center"
@@ -71,7 +76,7 @@
 	}
 	.nav-contact {
 		font-weight: bold;
-		text-decoration: underline;
+
 		font-size: 14px;
 	}
 	.nav-img {

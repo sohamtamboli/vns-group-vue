@@ -3,7 +3,7 @@
 		<div class="jumbotron custom p-5">
 			<p class="name heading"><strong>Privacy Policy</strong></p>
 			<p>
-				VNS group is committed to protecting your personal data and privacy. We
+				VNS GROUP is committed to protecting your personal data and privacy. We
 				recognize that ensuring the accuracy and security of your personal data
 				is essential to retaining your confidence and trust.
 			</p>
