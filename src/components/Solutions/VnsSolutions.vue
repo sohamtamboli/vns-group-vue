@@ -12,10 +12,10 @@
 				<img class="item" src="../../assets/products1.jpg" />
 			</div>
 			<div class="image-container">
-				<img class="item" src="../../assets/sign board.jpg" />
+				<img class="item" src="../../assets/sign board.png" />
 			</div>
 			<div class="image-container">
-				<img class="item" src="../../assets/products3.jpg" />
+				<img class="item" src="../../assets/products3.png" />
 			</div>
 		</carousel>
 		<Products :divs="productData" />
