@@ -10,7 +10,7 @@
 			style="text-shadow: 1px 1px 2px #333;"
 		>
 			<!-- Text slides with image -->
-			<b-carousel-slide class="slides" caption="" text=""
+			<b-carousel-slide class="slides blacktxt" caption="MFS-LA/2020/RF-13" text=""
 				><template v-slot:img>
 					<img
 						class="d-block img-fluid w-100 custom"
@@ -56,6 +56,9 @@
 		min-height: 30em;
 		object-fit: cover;
 		object-position: top;
+	}
+	.blacktxt{
+		color: black;
 	}
 
 	@media (min-width: 960px) {
