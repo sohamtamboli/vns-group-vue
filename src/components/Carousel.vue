@@ -38,6 +38,11 @@
 <script>
 	export default {
 		name: "Carousel",
+		data(){
+			return {
+				firstimg:''
+			}
+		},
 		mounted() {
 			if (screen.width < 600) {
 				this.firstimg = require("../assets/homepage1mobile.png");
