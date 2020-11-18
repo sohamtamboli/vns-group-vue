@@ -3,11 +3,11 @@
 		<div class="grid-container">
 			<div class="row1 container-fluid"></div>
 		</div>
-		<About />
+		<About2 />
 		<div class="m-3" id="grid-contain">
 			<b-card
-				title="Sanket"
-				img-src="https://picsum.photos/600/300/?image=25"
+				title="Chandrakant Ganpati  Powar"
+				img-src="../assets/about/skp.jpg"
 				img-alt="Image"
 				img-top
 				tag="article"
@@ -15,28 +15,13 @@
 				class="card1"
 			>
 				<b-card-text>
-					Some quick example text to build on the card title and make up the
-					bulk of the card's content.
+					( Founder & Managing director )
 				</b-card-text>
 			</b-card>
 			<div id="grid-contain-secondary">
 				<b-card
-					title="Govind"
-					img-src="https://picsum.photos/600/300/?image=25"
-					img-alt="Image"
-					img-top
-					tag="article"
-					style="max-width: 28rem;"
-					class="card2"
-				>
-					<b-card-text>
-						Some quick example text to build on the card title and make up the
-						bulk of the card's content.
-					</b-card-text>
-				</b-card>
-				<b-card
-					title="john snow"
-					img-src="https://picsum.photos/600/300/?image=25"
+					title="Ganesh Shivaji Adnaik"
+					img-src="../assets/about/skb.jpg"
 					img-alt="Image"
 					img-top
 					tag="article"
@@ -44,8 +29,20 @@
 					class="card3"
 				>
 					<b-card-text>
-						Some quick example text to build on the card title and make up the
-						bulk of the card's content.
+						( Executive Director )
+					</b-card-text>
+				</b-card>
+				<b-card
+					title="Sanket Chandrakant Powar"
+					img-src="../assets/about/skk3.jpg"
+					img-alt="Image"
+					img-top
+					tag="article"
+					style="max-width: 28rem;"
+					class="card2"
+				>
+					<b-card-text>
+						( Executive Director ) 
 					</b-card-text>
 				</b-card>
 			</div>
@@ -54,11 +51,11 @@
 </template>
 
 <script>
-	import About from "@/components/AboutUs";
+	import About2 from "@/components/aboutUs2";
 	export default {
 		title: "About",
 		components: {
-			About,
+			About2,
 		},
 	};
 </script>
