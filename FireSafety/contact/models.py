@@ -30,7 +30,7 @@ def post_save_session_reciver(sender,instance,created,*args, **kwargs):
         subject = subject
         message = "Name-{} \n\n Email-{} \n\n message-{}".format(first_name,email,message)
         email_from = settings.EMAIL_HOST_USER
-        recipient_list = ['atharva55@yahoo.com',]
+        recipient_list = ['sanket.Powar27@gmail.com',]
         send_mail( subject, message, email_from, recipient_list )
          
 
