@@ -8,13 +8,11 @@
 							<h5>Address</h5>
 							<p class="address">
 								<span><b>Branch1: </b></span>R.S no 586/4,In front of
-								vishwakarma founders,HMT phata ,MIDC,shiroli,kolhapur.
-								<span><b></b></span>
+								Vishwakarma Founders, HMT phata, MIDC, Shiroli, Kolhapur.
 							</p>
 							<p class="address">
-								<span><b>Branch2: </b></span> R.S no 1247/67,near udyoga nadari
-								patasanstha,shivaji vdyamanager,Kolhapur.
-								<span><b></b></span>
+								<span><b>Branch2: </b></span> R.S no 1247/67, Near Uudyoga
+								Nadari Patasanstha, Shivaji Vdyamanager, Kolhapur.
 							</p>
 							<b-button
 								v-b-toggle="'collapse-1'"
@@ -26,19 +24,20 @@
 							<b-collapse id="collapse-1">
 								<div class="mt-2">
 									<p class="address">
-										<span><b>Branch3: </b></span>Flat No 5, S.No
-										50,siddhivinayak socity,Ambegao,Pune. <span><b></b></span>
+										<span><b>Branch3: </b></span>Flat No 5, S.No. 50,
+										Siddhivinayak Society, Ambegao, Pune. <span><b></b></span>
 									</p>
 									<p class="address">
-										<span><b>Registration Office: </b></span>Plot no
-										102,B/3,shivaji nagar 3,near sai mandir,A/P:peth
-										vadgaon,Hatkanangle,Kolhapur,Maharashtra.
+										<span><b>Registration Office: </b></span>Plot no. 102, B/3,
+										Shivaji Nagar 3, Near Sai Mandir, A/P: Peth Vadgaon,
+										Hatkanangle, Kolhapur, Maharashtra.
 										<span><b></b></span>
 									</p>
 								</div>
 							</b-collapse>
 						</div>
-						<div class="col-xs-12 col-sm-4 col-md-4">
+
+						<div class="col-xs-12 col-sm-4 col-md-4 mt-2 txt">
 							<h5>Quick Links</h5>
 							<ul class="list-unstyled quick-links">
 								<b-nav-item class="link" to="/">Home</b-nav-item>
@@ -48,7 +47,7 @@
 								<b-nav-item class="link" to="/contact">Contact Us</b-nav-item>
 							</ul>
 						</div>
-						<div class="col-xs-12 col-sm-4 col-md-4">
+						<div class="col-xs-12 col-sm-4 col-md-4 txt">
 							<h5>Contact</h5>
 							<p class="contact">
 								<span><b>Phone No: </b></span
@@ -150,12 +149,27 @@
 	@media (max-width: 767px) {
 		#footer h5 {
 			padding-left: 0;
-			border-bottom: 3px solid #eeeeee;
+			position: relative;
 			border-left: transparent;
-			width: 20%;
+
 			margin: 0 auto;
 			padding-bottom: 0px;
 			margin-bottom: 10px;
+			text-align: left;
+		}
+		#footer h5::before {
+			content: "";
+			border-bottom: 3px solid #eeeeee;
+			border-left: transparent;
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			padding: 2px;
+			text-align: left;
+			width: 20%;
+		}
+		.txt {
+			text-align: left;
 		}
 
 		.address {
@@ -164,7 +178,7 @@
 			font-size: 14px;
 		}
 		.link {
-			text-align: center;
+			text-align: left;
 			font-size: 8px;
 		}
 

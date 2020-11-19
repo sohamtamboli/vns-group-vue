@@ -37,6 +37,6 @@
 		color: #2c3e50;
 	}
 	.blank {
-		height: 112.8px;
+		height: 142.8px;
 	}
 </style>

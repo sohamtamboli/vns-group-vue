@@ -249,11 +249,11 @@ export const data = {
 	hosepipe: [
 		{
 			img: require("../../assets/firehydrantsystem/hosepipe/hose pip RRL type(A).png"),
-			name: "Rrl Type A",
+			name: "RRL Type A",
 		},
 		{
 			img: require("../../assets/firehydrantsystem/hosepipe/HOSE PIP RRB TYPE(b).png"),
-			name: "Rrl Type B",
+			name: "RRL Type B",
 		},
 	],
 	hosebox: [
@@ -320,17 +320,21 @@ export const data = {
 	],
 	sprinkler: [
 		{
-			img: require("../../assets/firehydrantsystem/Sprinkler/fire-fighting-sprinkler-system.png"),
-			name: "Sprinkler",
+			img: require("../../assets/firehydrantsystem/Sprinkler/ss-sprinkler.png"),
+			name: "SS Sprinkler",
 		},
-		// {
-		// 	img: require("../../assets/firealarm/firepanel.png"),
-		// 	name: "sprinkler2",
-		// },
-		// {
-		// 	img: require("../../assets/firealarm/firepanel.png"),
-		// 	name: "sprinkler3",
-		// },
+		{
+			img: require("../../assets/firehydrantsystem/Sprinkler/upright-sprinkler.png"),
+			name: "Upright Sprinkler",
+		},
+		{
+			img: require("../../assets/firehydrantsystem/Sprinkler/sprayjet-sprinkler.png"),
+			name: "Sprayjet Sprinkler",
+		},
+		{
+			img: require("../../assets/firehydrantsystem/Sprinkler/sidewall-sprinkler.png"),
+			name: "Sidewall Sprinkler",
+		},
 	],
 	firealarm: [
 		{

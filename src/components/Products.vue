@@ -29,7 +29,7 @@
 		name: "Products",
 		data() {
 			return {
-				msg: "Our Products",
+				msg: "Products",
 			};
 		},
 		props: {

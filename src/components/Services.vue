@@ -5,7 +5,7 @@
 			:autoplay="true"
 			:nav="false"
 			:dots="false"
-			:responsive="{ 0: { items: 1 }, 600: { items: 5 } }"
+			:responsive="{ 0: { items: 1 }, 600: { items: 3 }, 800: { items: 5 } }"
 			:stagePadding="20"
 			loop
 		>

@@ -15,7 +15,7 @@
 				class="card1"
 			>
 				<b-card-text>
-					( Founder & Managing director )
+					( Founder & Managing Director )
 				</b-card-text>
 			</b-card>
 			<div id="grid-contain-secondary">
@@ -25,7 +25,7 @@
 					img-alt="Image"
 					img-top
 					tag="article"
-					style="max-width: 18rem;"
+					style="max-width: 22rem;"
 					class="card3"
 				>
 					<b-card-text>
@@ -38,7 +38,7 @@
 					img-alt="Image"
 					img-top
 					tag="article"
-					style="max-width: 18rem;"
+					style="max-width: 22rem;"
 					class="card2"
 				>
 					<b-card-text>
