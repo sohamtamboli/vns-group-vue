@@ -2,7 +2,7 @@
 	<div>
 		<b-carousel
 			id="carousel-1"
-			:interval="2000"
+			:interval="3000"
 			controls
 			indicators
 			class="slides"
@@ -10,7 +10,7 @@
 			style="text-shadow: 1px 1px 2px #333;"
 		>
 			<!-- Text slides with image -->
-			<b-carousel-slide class="slides blacktxt" caption="MFS-LA/2020/RF-13" text=""
+			<b-carousel-slide class="slides blacktxt" caption="" text=""
 				><template v-slot:img>
 					<img
 						class="d-block img-fluid w-100 custom"
@@ -38,10 +38,10 @@
 <script>
 	export default {
 		name: "Carousel",
-		data(){
+		data() {
 			return {
-				firstimg:''
-			}
+				firstimg: "",
+			};
 		},
 		mounted() {
 			if (screen.width < 600) {
@@ -62,7 +62,7 @@
 		object-fit: cover;
 		object-position: top;
 	}
-	.blacktxt{
+	.blacktxt {
 		color: black;
 	}
 

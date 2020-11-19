@@ -9,8 +9,12 @@
 				<h2>
 					<b>VNS Vital In Safety</b>
 				</h2>
-						<h6>VNS GROUP was established in 2015 with the Aim of Becoming in MAHARASTRA&rsquo;S Best fire Protection solution provider in order to provide a wide range of system in order to protect</h6>
-							<b-button to="/about" variant="outline-primary">More</b-button>				
+				<h6>
+					VNS GROUP was established in 2015 with the Aim of Becoming in
+					MAHARASTRA&rsquo;S Best fire Protection solution provider in order to
+					provide a wide range of system in order to protect
+				</h6>
+				<b-button to="/about" variant="outline-primary">Learn More...</b-button>
 			</div>
 		</div>
 	</div>
