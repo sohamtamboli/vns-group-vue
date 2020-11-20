@@ -81,7 +81,7 @@
 	}
 	.nav-img {
 		display: flex;
-
+		flex-direction: column;
 		align-items: center;
 	}
 	.nav-img img {

@@ -272,6 +272,10 @@ export const data = {
 			name: "Hose Reel",
 		},
 		{
+			img: require("../../assets/firehydrantsystem/hose reel/Hose Reel Pipe.png"),
+			name: "Hose Reel Pipe",
+		},
+		{
 			img: require("../../assets/firehydrantsystem/hose reel/ABS Plastic Jet Spray Hose Reel Nozzle.png"),
 			name: "ABS Plastic Jet Spray Hose Reel Nozzle",
 		},
