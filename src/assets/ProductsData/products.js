@@ -271,10 +271,19 @@ export const data = {
 			img: require("../../assets/firehydrantsystem/hose reel/hose reel.png"),
 			name: "Hose Reel",
 		},
-		// {
-		// 	img: require("../../assets/firealarm/firepanel.png"),
-		// 	name: "hose reel 2 ",
-		// },
+		{
+			img: require("../../assets/firehydrantsystem/hose reel/ABS Plastic Jet Spray Hose Reel Nozzle.png"),
+			name: "ABS Plastic Jet Spray Hose Reel Nozzle",
+		},
+		{
+			img: require("../../assets/firehydrantsystem/hose reel/Brass Fire Hose Reel Nozzle.png"),
+			name: "Brass Fire Hose Reel Nozzle",
+		},
+		{
+			img: require("../../assets/firehydrantsystem/hose reel/SS Shut Off Nozzle Hose Reel.png"),
+			name: "SS Shut Off Nozzle Hose Reel",
+		},
+
 	],
 	fireph: [
 		{
