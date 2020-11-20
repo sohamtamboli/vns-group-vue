@@ -15,7 +15,7 @@
 				<img class="item" src="../../assets/products5.png" />
 			</div>
 			<div class="image-container">
-				<img class="item" src="../../assets/products6.png" />
+				<img class="item" src="../../assets/products6new.png" />
 			</div>
 		</carousel>
 		<Products :divs="productData" />

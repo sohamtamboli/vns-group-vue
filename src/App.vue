@@ -3,17 +3,17 @@
 		<Nav />
 		<div class="blank"></div>
 		<router-view />
-		<footer_ />
+		<Footer />
 	</div>
 </template>
 <script>
 	import Nav from "@/components/Nav";
-	import footer_ from "@/components/footer";
+	import Footer from "@/components/footer";
 
 	export default {
 		components: {
 			Nav,
-			footer_,
+			Footer,
 		},
 		mounted() {
 			window.scrollTo(0, 0);
@@ -37,6 +37,6 @@
 		color: #2c3e50;
 	}
 	.blank {
-		height: 142.8px;
+		height: 172.8px;
 	}
 </style>

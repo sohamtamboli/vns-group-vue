@@ -75,7 +75,7 @@
 </template>
 <script>
 	export default {
-		name: "footer_",
+		name: "Footer",
 	};
 </script>
 
