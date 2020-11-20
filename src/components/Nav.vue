@@ -22,7 +22,7 @@
 				<b-navbar-brand to="/">
 					<div class="nav-img">
 						<img src="../assets/rsz_vnslogo.jpg" />
-						<strong>VNS GROUP</strong>
+						<strong class="red">VNS GROUP</strong>
 					</div></b-navbar-brand
 				>
 
@@ -81,10 +81,13 @@
 	}
 	.nav-img {
 		display: flex;
-
+		flex-direction: column;
 		align-items: center;
 	}
 	.nav-img img {
 		margin-right: 5px;
+	}
+	.red {
+		color: #d60000;
 	}
 </style>
