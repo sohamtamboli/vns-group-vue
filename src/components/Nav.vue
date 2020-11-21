@@ -21,8 +21,8 @@
 			<div class="container">
 				<b-navbar-brand to="/">
 					<div class="nav-img">
-						<img src="../assets/rsz_vnslogo.jpg" />
-						<strong class="red">VNS GROUP</strong>
+						<img src="../assets/flogo2.png" />
+						<!-- <strong class="red">VNS GROUP</strong> -->
 					</div></b-navbar-brand
 				>
 
@@ -81,7 +81,7 @@
 	}
 	.nav-img {
 		display: flex;
-		flex-direction: column;
+		/* flex-direction: column; */
 		align-items: center;
 	}
 	.nav-img img {

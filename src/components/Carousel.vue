@@ -17,14 +17,14 @@
 						:src="firstimg"
 						alt="image slot"/></template
 			></b-carousel-slide>
-			<b-carousel-slide class="slides" caption="Vital in Safety" text=""
+			<b-carousel-slide class="slides" caption="Fire safety on,accident gone" text=""
 				><template v-slot:img>
 					<img
 						class="d-block img-fluid w-100"
 						src="../assets/homepage2.png"
 						alt="image slot"/></template
 			></b-carousel-slide>
-			<b-carousel-slide class="slides" caption="Safety Products" text=""
+			<b-carousel-slide class="slides" caption="We serve to save" text=""
 				><template v-slot:img>
 					<img
 						class="d-block img-fluid w-100"
