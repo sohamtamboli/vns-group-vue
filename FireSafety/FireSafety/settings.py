@@ -124,6 +124,11 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
+STATICFILES_DIRS=[
+    os.path.join(BD,'dist'),
+ ]
+
+
  
 WEBPACK_LOADER = {
     'DEFAULT': {
@@ -137,5 +142,18 @@ EMAIL_BACKEND = "django.core.mail.backends.smtp.EmailBackend"
 EMAIL_HOST = "smtp.gmail.com"
 EMAIL_USE_TLS = True
 EMAIL_PORT = 587
-EMAIL_HOST_USER = "<Youremail@gmail.com>"
-EMAIL_HOST_PASSWORD = "*****"
+EMAIL_HOST_USER = "vnsgroupofficial@gmail.com"
+EMAIL_HOST_PASSWORD = "VnsGroup@123"
+
+
+
+
+# CORS_REPLACE_HTTPS_REFERER      = False
+# HOST_SCHEME                     = "http://"
+# SECURE_PROXY_SSL_HEADER         = None
+# SECURE_SSL_REDIRECT             = False
+# SESSION_COOKIE_SECURE           = False
+# CSRF_COOKIE_SECURE              = False
+# SECURE_HSTS_SECONDS             = None
+# SECURE_HSTS_INCLUDE_SUBDOMAINS  = False
+# SECURE_FRAME_DENY               = False
