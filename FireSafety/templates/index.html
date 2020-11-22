@@ -1,10 +1,35 @@
 {% extends 'base.html' %}
-{% load render_bundle from webpack_loader %}
-{% block content %}
+{% load static %}
 
+
+{% block style %}
+    <link rel="stylesheet" href="{% static 'css/about.dbdc4db1.css' %}">
+    <link rel="stylesheet" href="{% static 'css/app.86cb135a.dbdc4db1.css' %}">
+    <link rel="stylesheet" href="{% static 'css/enterprises.1ab45bee.css' %}">
+    <link rel="stylesheet" href="{% static 'css/Error.f4cee9f6.css' %}">
+    <link rel="stylesheet" href="{% static 'css/privacypolicy.7de8d1ba.css' %}">
+    <link rel="stylesheet" href="{% static 'css/Solutions.41b89c69.css' %}">
+    <link rel="stylesheet" href="{% static 'css/subproducts.4659cdc3.css' %}">
+
+{% endblock style %}
+
+{% block content %}
     
     <div id="app"></div>
-    {% render_bundle 'app' %}
-    
+     
 {% endblock content %}
+
+{% block js %}
+    <script src="{% static 'js/about.f6cf321b.js' %}"></script>
+    <script src="{% static 'js/contact.4b744e94.js.js' %}"></script>
+    <script src="{% static 'js/enterprises.633e3eef.js' %}"></script>
+    <script src="{% static 'js/Error.22e1bab5.js' %}"></script>
+    <script src="{% static 'js/privacypolicy.8fc5221f.js' %}"></script>
+    <script src="{% static 'js/Solutions.6d7d49e5.js' %}"></script>
+    <script src="{% static 'js/subproducts.9a3dc41e.js' %}"></script>
+    <script src="{% static 'bundle.js' %}"></script>
+{% endblock js %}
+ 
+
+
  
