@@ -3,33 +3,42 @@
 
 
 {% block style %}
-    <link rel="stylesheet" href="{% static 'css/about.dbdc4db1.css' %}">
-    <link rel="stylesheet" href="{% static 'css/app.86cb135a.dbdc4db1.css' %}">
-    <link rel="stylesheet" href="{% static 'css/enterprises.1ab45bee.css' %}">
-    <link rel="stylesheet" href="{% static 'css/Error.f4cee9f6.css' %}">
-    <link rel="stylesheet" href="{% static 'css/privacypolicy.7de8d1ba.css' %}">
-    <link rel="stylesheet" href="{% static 'css/Solutions.41b89c69.css' %}">
-    <link rel="stylesheet" href="{% static 'css/subproducts.4659cdc3.css' %}">
-
+    {% comment %} <link rel="stylesheet" href="{% static 'bundle.css' %}"> {% endcomment %}
+    <link href="{% static 'css/Error.f4cee9f6.css' %}" rel="stylesheet" />
+    <link href="{% static 'css/Solutions.41b89c69.css' %}" rel="stylesheet" />
+    <link href="{% static 'css/about.dbdc4db1.css' %}" rel="stylesheet" />
+    <link href="{% static 'css/enterprises.1ab45bee.css' %}" rel="stylesheet" />
+    <link href="{% static 'css/privacypolicy.7de8d1ba.css' %}" rel="stylesheet" />
+    <link href="{% static 'css/subproducts.4659cdc3.css' %}" rel="stylesheet" />
+    <link href="{% static 'css/app.e97e2859.css' %}" rel="stylesheet" />
+    {% comment %} <link href="{% static 'js/Error.8344b042.js' %}" rel="prefetch">
+    <link href="{% static 'js/Solutions.84ea575d.js' %}" rel="prefetch">
+    <link href="{% static 'js/about.ec908e78.js' %}" rel="prefetch">
+    <link href="{% static 'js/contact.2ac83e62.js' %}" rel="prefetch">
+    <link href="{% static 'js/enterprises.5136469d.js' %}" rel="prefetch">
+    <link href="{% static 'js/privacypolicy.eeca3ddb.js' %}" rel="prefetch">
+    <link href="{% static 'js/subproducts.4697dab8.js' %}" rel="prefetch">
+    <link href="{% static 'bundle.js' %}"  rel="preload" as="script">
+    <link href="{% static 'css/app.e97e2859.css' %}" rel="preload" as="style">
+    <link href="{% static 'css/app.e97e2859.css' %}" rel="stylesheet"> {% endcomment %}
 {% endblock style %}
 
 {% block content %}
+    <noscript
+      ><strong
+        >We're sorry but vns-group doesn't work properly without JavaScript
+        enabled. Please enable it to continue.</strong
+      ></noscript>
     
     <div id="app"></div>
      
 {% endblock content %}
 
 {% block js %}
-    <script src="{% static 'js/about.f6cf321b.js' %}"></script>
-    <script src="{% static 'js/contact.4b744e94.js.js' %}"></script>
-    <script src="{% static 'js/enterprises.633e3eef.js' %}"></script>
-    <script src="{% static 'js/Error.22e1bab5.js' %}"></script>
-    <script src="{% static 'js/privacypolicy.8fc5221f.js' %}"></script>
-    <script src="{% static 'js/Solutions.6d7d49e5.js' %}"></script>
-    <script src="{% static 'js/subproducts.9a3dc41e.js' %}"></script>
     <script src="{% static 'bundle.js' %}"></script>
+
 {% endblock js %}
- 
+
 
 
  
