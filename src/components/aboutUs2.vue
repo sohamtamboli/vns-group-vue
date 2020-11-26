@@ -10,10 +10,9 @@
 					VNS - Vital in Safety
 				</h4>
 				<p>
-					VNS GROUP was established in 2015 with the Aim of Becoming in
-					MAHARASTRA&rsquo;S Best fire Protection solution provider in order to
-					provide a wide range of system in order to protect And prevent any
-					sort of fire Disaster .
+					<b>VNS GROUP</b> was established in 2015 with the aim to become the
+					MAHARASTRA&rsquo;S Best Fire Protection Solution provider in order to
+					provide a wide range of system in order to protect and prevent any sort of fire disaster.
 				</p>
 				<p>
 					Also
